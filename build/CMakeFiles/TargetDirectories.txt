@@ -1,0 +1,5 @@
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/rebuild_cache.dir
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/edit_cache.dir
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/client_bin.dir
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/server_bin.dir
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/audio_bin.dir

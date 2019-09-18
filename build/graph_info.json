@@ -1,0 +1,30 @@
+{
+ "options": [
+  [
+   "opus:fPIC",
+   "True"
+  ],
+  [
+   "opus:fixed_point",
+   "False"
+  ],
+  [
+   "opus:shared",
+   "False"
+  ],
+  [
+   "portaudio:fPIC",
+   "True"
+  ],
+  [
+   "portaudio:shared",
+   "False"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}

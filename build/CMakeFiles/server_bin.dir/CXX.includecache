@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/srcs/server/././Client.hpp
+../network/Socket.hpp
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/srcs/server/./network/Socket.hpp
+
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/srcs/server/./Request.hpp
+
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/srcs/server/./Server.hpp
+unordered_map
+-
+Request.hpp
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/srcs/server/./Request.hpp
+../network/Socket.hpp
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/srcs/server/network/Socket.hpp
+./Client.hpp
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/srcs/server/././Client.hpp
+
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/srcs/server/main.cpp
+./Server.hpp
+/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/srcs/server/./Server.hpp
+

@@ -1,0 +1,1061 @@
+{
+ "profile": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=10.0\nos=Macos\nos_build=Macos\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "3c74d508-da06-11e9-b24b-dca9047d3673": {
+    "pref": "boost_cycle_group_b/1.69.0@bincrafters/stable#0:d192079047281ca9026af845d79fd09eb4594310#0",
+    "options": "shared=False\nboost_atomic:shared=False\nboost_container:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_array/1.69.0@bincrafters/stable#0": "3c74ca06-da06-11e9-8830-dca9047d3673",
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_atomic/1.69.0@bincrafters/stable#0": "3c74cb9e-da06-11e9-92c8-dca9047d3673",
+     "boost_concept_check/1.69.0@bincrafters/stable#0": "3c74cc02-da06-11e9-b8eb-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container/1.69.0@bincrafters/stable#0": "3c74ccac-da06-11e9-977e-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_fusion/1.69.0@bincrafters/stable#0": "3c74cda6-da06-11e9-a372-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_lambda/1.69.0@bincrafters/stable#0": "3c74ce46-da06-11e9-86ef-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_numeric_conversion/1.69.0@bincrafters/stable#0": "3c74cee6-da06-11e9-a1b2-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_range/1.69.0@bincrafters/stable#0": "3c74cf86-da06-11e9-9094-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_tuple/1.69.0@bincrafters/stable#0": "3c74d0c6-da06-11e9-995f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74e8c2-da06-11e9-a7f9-dca9047d3673": {
+    "pref": "boost_cycle_group_c/1.69.0@bincrafters/stable#0:30409695ef6c658a9baa6d88db5d5943b78b34a4#0",
+    "options": "shared=False\nthreadapi=default\nuse_bzip2=True\nuse_lzma=True\nuse_zlib=True\nuse_zstd=True\nboost_atomic:shared=False\nboost_chrono:shared=False\nboost_container:shared=False\nboost_cycle_group_b:shared=False\nboost_exception:shared=False\nboost_filesystem:shared=False\nboost_locale:shared=False\nboost_locale:use_icu=False\nboost_regex:shared=False\nboost_regex:use_icu=False\nboost_system:shared=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nlzma:fPIC=True\nlzma:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False\nzstd:fPIC=True\nzstd:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_algorithm/1.69.0@bincrafters/stable#0": "3c74d56c-da06-11e9-9de5-dca9047d3673",
+     "boost_array/1.69.0@bincrafters/stable#0": "3c74ca06-da06-11e9-8830-dca9047d3673",
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_atomic/1.69.0@bincrafters/stable#0": "3c74cb9e-da06-11e9-92c8-dca9047d3673",
+     "boost_bind/1.69.0@bincrafters/stable#0": "3c74d602-da06-11e9-bb6f-dca9047d3673",
+     "boost_chrono/1.69.0@bincrafters/stable#0": "3c74d652-da06-11e9-af46-dca9047d3673",
+     "boost_concept_check/1.69.0@bincrafters/stable#0": "3c74cc02-da06-11e9-b8eb-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container/1.69.0@bincrafters/stable#0": "3c74ccac-da06-11e9-977e-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_endian/1.69.0@bincrafters/stable#0": "3c74d74c-da06-11e9-8d96-dca9047d3673",
+     "boost_exception/1.69.0@bincrafters/stable#0": "3c74d79c-da06-11e9-b660-dca9047d3673",
+     "boost_filesystem/1.69.0@bincrafters/stable#0": "3c74d7ec-da06-11e9-9579-dca9047d3673",
+     "boost_foreach/1.69.0@bincrafters/stable#0": "3c74d83a-da06-11e9-abc3-dca9047d3673",
+     "boost_function/1.69.0@bincrafters/stable#0": "3c74d88c-da06-11e9-ab8f-dca9047d3673",
+     "boost_function_types/1.69.0@bincrafters/stable#0": "3c74d8d2-da06-11e9-ab8c-dca9047d3673",
+     "boost_fusion/1.69.0@bincrafters/stable#0": "3c74cda6-da06-11e9-a372-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_intrusive/1.69.0@bincrafters/stable#0": "3c74d94a-da06-11e9-a152-dca9047d3673",
+     "boost_io/1.69.0@bincrafters/stable#0": "3c74d990-da06-11e9-8ff0-dca9047d3673",
+     "boost_iterator/1.69.0@bincrafters/stable#0": "3c74d9e8-da06-11e9-9a25-dca9047d3673",
+     "boost_lexical_cast/1.69.0@bincrafters/stable#0": "3c74da3a-da06-11e9-9481-dca9047d3673",
+     "boost_locale/1.69.0@bincrafters/stable#0": "3c74da8a-da06-11e9-a6a8-dca9047d3673",
+     "boost_math/1.69.0@bincrafters/stable#0": "3c74dad0-da06-11e9-8889-dca9047d3673",
+     "boost_move/1.69.0@bincrafters/stable#0": "3c74db1e-da06-11e9-9b60-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_numeric_conversion/1.69.0@bincrafters/stable#0": "3c74cee6-da06-11e9-a1b2-dca9047d3673",
+     "boost_optional/1.69.0@bincrafters/stable#0": "3c74db8c-da06-11e9-9ead-dca9047d3673",
+     "boost_phoenix/1.69.0@bincrafters/stable#0": "3c74dbde-da06-11e9-9053-dca9047d3673",
+     "boost_pool/1.69.0@bincrafters/stable#0": "3c74dc2e-da06-11e9-ad9f-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_proto/1.69.0@bincrafters/stable#0": "3c74dcd8-da06-11e9-9bfd-dca9047d3673",
+     "boost_range/1.69.0@bincrafters/stable#0": "3c74cf86-da06-11e9-9094-dca9047d3673",
+     "boost_rational/1.69.0@bincrafters/stable#0": "3c74dd3a-da06-11e9-b03f-dca9047d3673",
+     "boost_regex/1.69.0@bincrafters/stable#0": "3c74dd8c-da06-11e9-bfb1-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_system/1.69.0@bincrafters/stable#0": "3c74ddfa-da06-11e9-8c76-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_tokenizer/1.69.0@bincrafters/stable#0": "3c74de54-da06-11e9-bbb1-dca9047d3673",
+     "boost_tti/1.69.0@bincrafters/stable#0": "3c74dea4-da06-11e9-8350-dca9047d3673",
+     "boost_tuple/1.69.0@bincrafters/stable#0": "3c74d0c6-da06-11e9-995f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_typeof/1.69.0@bincrafters/stable#0": "3c74df1c-da06-11e9-bf99-dca9047d3673",
+     "boost_unordered/1.69.0@bincrafters/stable#0": "3c74df62-da06-11e9-be91-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673",
+     "boost_variant/1.69.0@bincrafters/stable#0": "3c74e002-da06-11e9-905c-dca9047d3673",
+     "boost_winapi/1.69.0@bincrafters/stable#0": "3c74e052-da06-11e9-8820-dca9047d3673",
+     "bzip2/1.0.6@conan/stable#0": "3c74e0a2-da06-11e9-aea3-dca9047d3673",
+     "zlib/1.2.11@conan/stable#0": "3c74e0f4-da06-11e9-9b8c-dca9047d3673",
+     "lzma/5.2.4@bincrafters/stable#0": "3c74e138-da06-11e9-a2e0-dca9047d3673",
+     "zstd/1.3.5@bincrafters/stable#0": "3c74e188-da06-11e9-a4b2-dca9047d3673"
+    }
+   },
+   "3c74ecb4-da06-11e9-8ec6-dca9047d3673": {
+    "pref": null,
+    "options": "opus:fPIC=True\nopus:fixed_point=False\nopus:shared=False\nportaudio:fPIC=True\nportaudio:shared=False",
+    "requires": {
+     "opus/1.3.1@bincrafters/stable#0": "3c74e926-da06-11e9-b605-dca9047d3673",
+     "portaudio/v190600.20161030@bincrafters/stable#0": "3c74e980-da06-11e9-ad03-dca9047d3673",
+     "boost_asio/1.69.0@bincrafters/stable#0": "3c74e9d0-da06-11e9-b957-dca9047d3673"
+    }
+   },
+   "3c74db8c-da06-11e9-9ead-dca9047d3673": {
+    "pref": "boost_optional/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_move/1.69.0@bincrafters/stable#0": "3c74db1e-da06-11e9-9b60-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74d8d2-da06-11e9-ab8c-dca9047d3673": {
+    "pref": "boost_function_types/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74d026-da06-11e9-b9d6-dca9047d3673": {
+    "pref": "boost_static_assert/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673"
+    }
+   },
+   "3c74dc2e-da06-11e9-ad9f-dca9047d3673": {
+    "pref": "boost_pool/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_winapi/1.69.0@bincrafters/stable#0": "3c74e052-da06-11e9-8820-dca9047d3673"
+    }
+   },
+   "3c74de54-da06-11e9-bbb1-dca9047d3673": {
+    "pref": "boost_tokenizer/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_iterator/1.69.0@bincrafters/stable#0": "3c74d9e8-da06-11e9-9a25-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74cf86-da06-11e9-9094-dca9047d3673": {
+    "pref": "boost_range/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "boost_cycle_group_a:shared=False\nboost_exception:shared=False\nboost_regex:shared=False\nboost_regex:use_icu=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_cycle_group_a/1.69.0@bincrafters/stable#0": "3c74f5cc-da06-11e9-b086-dca9047d3673"
+    }
+   },
+   "3c74cb26-da06-11e9-8a0c-dca9047d3673": {
+    "pref": "boost_assert/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673"
+    }
+   },
+   "3c74cc5c-da06-11e9-a774-dca9047d3673": {
+    "pref": "boost_config/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ]
+   },
+   "3c74dbde-da06-11e9-9053-dca9047d3673": {
+    "pref": "boost_phoenix/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_bind/1.69.0@bincrafters/stable#0": "3c74d602-da06-11e9-bb6f-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_function/1.69.0@bincrafters/stable#0": "3c74d88c-da06-11e9-ab8f-dca9047d3673",
+     "boost_fusion/1.69.0@bincrafters/stable#0": "3c74cda6-da06-11e9-a372-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_proto/1.69.0@bincrafters/stable#0": "3c74dcd8-da06-11e9-9bfd-dca9047d3673",
+     "boost_range/1.69.0@bincrafters/stable#0": "3c74cf86-da06-11e9-9094-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74df1c-da06-11e9-bf99-dca9047d3673": {
+    "pref": "boost_typeof/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74dcd8-da06-11e9-9bfd-dca9047d3673": {
+    "pref": "boost_proto/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_fusion/1.69.0@bincrafters/stable#0": "3c74cda6-da06-11e9-a372-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_range/1.69.0@bincrafters/stable#0": "3c74cf86-da06-11e9-9094-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_typeof/1.69.0@bincrafters/stable#0": "3c74df1c-da06-11e9-bf99-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74e0f4-da06-11e9-9b8c-dca9047d3673": {
+    "pref": "zlib/1.2.11@conan/stable#0:534dcc368c999e07e81f146b3466b8f656ef1f55#0",
+    "options": "fPIC=True\nminizip=False\nshared=False"
+   },
+   "3c74e926-da06-11e9-b605-dca9047d3673": {
+    "pref": "opus/1.3.1@bincrafters/stable#0:534dcc368c999e07e81f146b3466b8f656ef1f55#0",
+    "options": "fPIC=True\nfixed_point=False\nshared=False"
+   },
+   "3c7504cc-da06-11e9-924a-dca9047d3673": {
+    "pref": "boost_type_index/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74e980-da06-11e9-ad03-dca9047d3673": {
+    "pref": "portaudio/v190600.20161030@bincrafters/stable#0:534dcc368c999e07e81f146b3466b8f656ef1f55#0",
+    "options": "fPIC=True\nshared=False"
+   },
+   "3c74dd3a-da06-11e9-b03f-dca9047d3673": {
+    "pref": "boost_rational/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74d56c-da06-11e9-9de5-dca9047d3673": {
+    "pref": "boost_algorithm/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "boost_cycle_group_a:shared=False\nboost_exception:shared=False\nboost_regex:shared=False\nboost_regex:use_icu=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_cycle_group_a/1.69.0@bincrafters/stable#0": "3c74f5cc-da06-11e9-b086-dca9047d3673"
+    }
+   },
+   "3c74d6d4-da06-11e9-984b-dca9047d3673": {
+    "pref": "boost_container_hash/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74cfd8-da06-11e9-9200-dca9047d3673": {
+    "pref": "boost_smart_ptr/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_move/1.69.0@bincrafters/stable#0": "3c74db1e-da06-11e9-9b60-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74e052-da06-11e9-8820-dca9047d3673": {
+    "pref": "boost_winapi/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673"
+    }
+   },
+   "3c74f5cc-da06-11e9-b086-dca9047d3673": {
+    "pref": "boost_cycle_group_a/1.69.0@bincrafters/stable#0:641514453a9f65f8e0c7dfc14fa6b881970a8add#0",
+    "options": "shared=False\nboost_exception:shared=False\nboost_regex:shared=False\nboost_regex:use_icu=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_array/1.69.0@bincrafters/stable#0": "3c74ca06-da06-11e9-8830-dca9047d3673",
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_bind/1.69.0@bincrafters/stable#0": "3c74d602-da06-11e9-bb6f-dca9047d3673",
+     "boost_concept_check/1.69.0@bincrafters/stable#0": "3c74cc02-da06-11e9-b8eb-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_exception/1.69.0@bincrafters/stable#0": "3c74d79c-da06-11e9-b660-dca9047d3673",
+     "boost_function/1.69.0@bincrafters/stable#0": "3c74d88c-da06-11e9-ab8f-dca9047d3673",
+     "boost_iterator/1.69.0@bincrafters/stable#0": "3c74d9e8-da06-11e9-9a25-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_numeric_conversion/1.69.0@bincrafters/stable#0": "3c74cee6-da06-11e9-a1b2-dca9047d3673",
+     "boost_optional/1.69.0@bincrafters/stable#0": "3c74db8c-da06-11e9-9ead-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_regex/1.69.0@bincrafters/stable#0": "3c74dd8c-da06-11e9-bfb1-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_tuple/1.69.0@bincrafters/stable#0": "3c74d0c6-da06-11e9-995f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_unordered/1.69.0@bincrafters/stable#0": "3c74df62-da06-11e9-be91-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74d0c6-da06-11e9-995f-dca9047d3673": {
+    "pref": "boost_tuple/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74d74c-da06-11e9-8d96-dca9047d3673": {
+    "pref": "boost_endian/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74e138-da06-11e9-a2e0-dca9047d3673": {
+    "pref": "lzma/5.2.4@bincrafters/stable#0:534dcc368c999e07e81f146b3466b8f656ef1f55#0",
+    "options": "fPIC=True\nshared=False"
+   },
+   "3c74d7ec-da06-11e9-9579-dca9047d3673": {
+    "pref": "boost_filesystem/1.69.0@bincrafters/stable#0:a264469c9ba290eb3835ef9156ef778b8509e6f3#0",
+    "options": "shared=False\nboost_system:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_io/1.69.0@bincrafters/stable#0": "3c74d990-da06-11e9-8ff0-dca9047d3673",
+     "boost_iterator/1.69.0@bincrafters/stable#0": "3c74d9e8-da06-11e9-9a25-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_system/1.69.0@bincrafters/stable#0": "3c74ddfa-da06-11e9-8c76-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74ca06-da06-11e9-8830-dca9047d3673": {
+    "pref": "boost_array/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673"
+    }
+   },
+   "3c74d602-da06-11e9-bb6f-dca9047d3673": {
+    "pref": "boost_bind/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673"
+    }
+   },
+   "3c74d652-da06-11e9-af46-dca9047d3673": {
+    "pref": "boost_chrono/1.69.0@bincrafters/stable#0:d026917cde6572c94374dd2b0684265f14bad582#0",
+    "options": "shared=False\nboost_system:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_move/1.69.0@bincrafters/stable#0": "3c74db1e-da06-11e9-9b60-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_ratio/1.69.0@bincrafters/stable#0": "3c751e8c-da06-11e9-b36a-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_system/1.69.0@bincrafters/stable#0": "3c74ddfa-da06-11e9-8c76-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_typeof/1.69.0@bincrafters/stable#0": "3c74df1c-da06-11e9-bf99-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673",
+     "boost_winapi/1.69.0@bincrafters/stable#0": "3c74e052-da06-11e9-8820-dca9047d3673"
+    }
+   },
+   "3c74cee6-da06-11e9-a1b2-dca9047d3673": {
+    "pref": "boost_numeric_conversion/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_conversion/1.69.0@bincrafters/stable#0": "3c752594-da06-11e9-bdd9-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74cb9e-da06-11e9-92c8-dca9047d3673": {
+    "pref": "boost_atomic/1.69.0@bincrafters/stable#0:bd13837b0565a05a6385ba2d684da2fe4f851f3f#0",
+    "options": "shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74dea4-da06-11e9-8350-dca9047d3673": {
+    "pref": "boost_tti/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_function_types/1.69.0@bincrafters/stable#0": "3c74d8d2-da06-11e9-ab8c-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c7532f0-da06-11e9-b46c-dca9047d3673": {
+    "pref": "boost_date_time/1.69.0@bincrafters/stable#0:99885e54e7086238026302847f4c4c58ae981ea7#0",
+    "options": "boost_atomic:shared=False\nboost_chrono:shared=False\nboost_container:shared=False\nboost_cycle_group_b:shared=False\nboost_cycle_group_c:shared=False\nboost_cycle_group_c:threadapi=default\nboost_cycle_group_c:use_bzip2=True\nboost_cycle_group_c:use_lzma=True\nboost_cycle_group_c:use_zlib=True\nboost_cycle_group_c:use_zstd=True\nboost_exception:shared=False\nboost_filesystem:shared=False\nboost_locale:shared=False\nboost_locale:use_icu=False\nboost_regex:shared=False\nboost_regex:use_icu=False\nboost_system:shared=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nlzma:fPIC=True\nlzma:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False\nzstd:fPIC=True\nzstd:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_cycle_group_c/1.69.0@bincrafters/stable#0": "3c74e8c2-da06-11e9-a7f9-dca9047d3673"
+    }
+   },
+   "3c74d94a-da06-11e9-a152-dca9047d3673": {
+    "pref": "boost_intrusive/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_move/1.69.0@bincrafters/stable#0": "3c74db1e-da06-11e9-9b60-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673"
+    }
+   },
+   "3c74cdec-da06-11e9-b9ed-dca9047d3673": {
+    "pref": "boost_integer/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673"
+    }
+   },
+   "3c74db1e-da06-11e9-9b60-dca9047d3673": {
+    "pref": "boost_move/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673"
+    }
+   },
+   "3c753e80-da06-11e9-b869-dca9047d3673": {
+    "pref": "boost_thread/1.69.0@bincrafters/stable#0:cc471ed355602ffa7007968c83aa4e7e648a38b5#0",
+    "options": "shared=False\nthreadapi=default\nboost_atomic:shared=False\nboost_chrono:shared=False\nboost_container:shared=False\nboost_cycle_group_b:shared=False\nboost_cycle_group_c:shared=False\nboost_cycle_group_c:threadapi=default\nboost_cycle_group_c:use_bzip2=True\nboost_cycle_group_c:use_lzma=True\nboost_cycle_group_c:use_zlib=True\nboost_cycle_group_c:use_zstd=True\nboost_exception:shared=False\nboost_filesystem:shared=False\nboost_locale:shared=False\nboost_locale:use_icu=False\nboost_regex:shared=False\nboost_regex:use_icu=False\nboost_system:shared=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nlzma:fPIC=True\nlzma:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False\nzstd:fPIC=True\nzstd:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_cycle_group_c/1.69.0@bincrafters/stable#0": "3c74e8c2-da06-11e9-a7f9-dca9047d3673"
+    }
+   },
+   "3c74d118-da06-11e9-b556-dca9047d3673": {
+    "pref": "boost_type_traits/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673"
+    }
+   },
+   "3c7541dc-da06-11e9-9a69-dca9047d3673": {
+    "pref": "boost_context/1.69.0@bincrafters/stable#0:da4bd2fe40ce08748adb1b753eab4b2652787e2a#0",
+    "options": "shared=False\nboost_thread:shared=False\nboost_thread:threadapi=default",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_pool/1.69.0@bincrafters/stable#0": "3c74dc2e-da06-11e9-ad9f-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_thread/1.69.0@bincrafters/stable#0": "3c753e80-da06-11e9-b869-dca9047d3673"
+    }
+   },
+   "3c74d990-da06-11e9-8ff0-dca9047d3673": {
+    "pref": "boost_io/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673"
+    }
+   },
+   "3c74dc88-da06-11e9-b81f-dca9047d3673": {
+    "pref": "boost_preprocessor/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ]
+   },
+   "3c74da3a-da06-11e9-9481-dca9047d3673": {
+    "pref": "boost_lexical_cast/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "boost_atomic:shared=False\nboost_container:shared=False\nboost_cycle_group_b:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_cycle_group_b/1.69.0@bincrafters/stable#0": "3c74d508-da06-11e9-b24b-dca9047d3673"
+    }
+   },
+   "3c74ddfa-da06-11e9-8c76-dca9047d3673": {
+    "pref": "boost_system/1.69.0@bincrafters/stable#0:9008215d6ed4bf2d0dc50372c0d714d23ae1582a#0",
+    "options": "shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_winapi/1.69.0@bincrafters/stable#0": "3c74e052-da06-11e9-8820-dca9047d3673"
+    }
+   },
+   "3c74ce46-da06-11e9-86ef-dca9047d3673": {
+    "pref": "boost_lambda/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_bind/1.69.0@bincrafters/stable#0": "3c74d602-da06-11e9-bb6f-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_iterator/1.69.0@bincrafters/stable#0": "3c74d9e8-da06-11e9-9a25-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_tuple/1.69.0@bincrafters/stable#0": "3c74d0c6-da06-11e9-995f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74cda6-da06-11e9-a372-dca9047d3673": {
+    "pref": "boost_fusion/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_function_types/1.69.0@bincrafters/stable#0": "3c74d8d2-da06-11e9-ab8c-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_tuple/1.69.0@bincrafters/stable#0": "3c74d0c6-da06-11e9-995f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_typeof/1.69.0@bincrafters/stable#0": "3c74df1c-da06-11e9-bf99-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74d076-da06-11e9-9142-dca9047d3673": {
+    "pref": "boost_throw_exception/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673"
+    }
+   },
+   "3c75541a-da06-11e9-b2c4-dca9047d3673": {
+    "pref": "boost_coroutine/1.69.0@bincrafters/stable#0:155e912fb5dc2daf6a4773c2c9d662805e75f474#0",
+    "options": "shared=False\nboost_context:shared=False\nboost_exception:shared=False\nboost_system:shared=False\nboost_thread:shared=False\nboost_thread:threadapi=default",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_context/1.69.0@bincrafters/stable#0": "3c7541dc-da06-11e9-9a69-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_exception/1.69.0@bincrafters/stable#0": "3c74d79c-da06-11e9-b660-dca9047d3673",
+     "boost_move/1.69.0@bincrafters/stable#0": "3c74db1e-da06-11e9-9b60-dca9047d3673",
+     "boost_range/1.69.0@bincrafters/stable#0": "3c74cf86-da06-11e9-9094-dca9047d3673",
+     "boost_system/1.69.0@bincrafters/stable#0": "3c74ddfa-da06-11e9-8c76-dca9047d3673",
+     "boost_thread/1.69.0@bincrafters/stable#0": "3c753e80-da06-11e9-b869-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74df62-da06-11e9-be91-dca9047d3673": {
+    "pref": "boost_unordered/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "boost_container:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container/1.69.0@bincrafters/stable#0": "3c74ccac-da06-11e9-977e-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_move/1.69.0@bincrafters/stable#0": "3c74db1e-da06-11e9-9b60-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_tuple/1.69.0@bincrafters/stable#0": "3c74d0c6-da06-11e9-995f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74d83a-da06-11e9-abc3-dca9047d3673": {
+    "pref": "boost_foreach/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_iterator/1.69.0@bincrafters/stable#0": "3c74d9e8-da06-11e9-9a25-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_range/1.69.0@bincrafters/stable#0": "3c74cf86-da06-11e9-9094-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74cc02-da06-11e9-b8eb-dca9047d3673": {
+    "pref": "boost_concept_check/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c751e8c-da06-11e9-b36a-dca9047d3673": {
+    "pref": "boost_ratio/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_rational/1.69.0@bincrafters/stable#0": "3c74dd3a-da06-11e9-b03f-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74ccfa-da06-11e9-b941-dca9047d3673": {
+    "pref": "boost_core/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673"
+    }
+   },
+   "3c74ce98-da06-11e9-a455-dca9047d3673": {
+    "pref": "boost_mpl/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74e9d0-da06-11e9-b957-dca9047d3673": {
+    "pref": "boost_asio/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "boost_atomic:shared=False\nboost_chrono:shared=False\nboost_container:shared=False\nboost_context:shared=False\nboost_coroutine:shared=False\nboost_cycle_group_b:shared=False\nboost_cycle_group_c:shared=False\nboost_cycle_group_c:threadapi=default\nboost_cycle_group_c:use_bzip2=True\nboost_cycle_group_c:use_lzma=True\nboost_cycle_group_c:use_zlib=True\nboost_cycle_group_c:use_zstd=True\nboost_exception:shared=False\nboost_filesystem:shared=False\nboost_locale:shared=False\nboost_locale:use_icu=False\nboost_regex:shared=False\nboost_regex:use_icu=False\nboost_system:shared=False\nboost_thread:shared=False\nboost_thread:threadapi=default\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nlzma:fPIC=True\nlzma:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False\nzstd:fPIC=True\nzstd:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_array/1.69.0@bincrafters/stable#0": "3c74ca06-da06-11e9-8830-dca9047d3673",
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_bind/1.69.0@bincrafters/stable#0": "3c74d602-da06-11e9-bb6f-dca9047d3673",
+     "boost_chrono/1.69.0@bincrafters/stable#0": "3c74d652-da06-11e9-af46-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_coroutine/1.69.0@bincrafters/stable#0": "3c75541a-da06-11e9-b2c4-dca9047d3673",
+     "boost_date_time/1.69.0@bincrafters/stable#0": "3c7532f0-da06-11e9-b46c-dca9047d3673",
+     "boost_function/1.69.0@bincrafters/stable#0": "3c74d88c-da06-11e9-ab8f-dca9047d3673",
+     "boost_regex/1.69.0@bincrafters/stable#0": "3c74dd8c-da06-11e9-bfb1-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_system/1.69.0@bincrafters/stable#0": "3c74ddfa-da06-11e9-8c76-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74dad0-da06-11e9-8889-dca9047d3673": {
+    "pref": "boost_math/1.69.0@bincrafters/stable#0:eadf0e88893dc9e9cd9229ee0dd414dbfdc511a0#0",
+    "options": "boost_atomic:shared=False\nboost_container:shared=False\nboost_cycle_group_b:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_cycle_group_b/1.69.0@bincrafters/stable#0": "3c74d508-da06-11e9-b24b-dca9047d3673"
+    }
+   },
+   "3c74d88c-da06-11e9-ab8f-dca9047d3673": {
+    "pref": "boost_function/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_bind/1.69.0@bincrafters/stable#0": "3c74d602-da06-11e9-bb6f-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_index/1.69.0@bincrafters/stable#0": "3c7504cc-da06-11e9-924a-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_typeof/1.69.0@bincrafters/stable#0": "3c74df1c-da06-11e9-bf99-dca9047d3673"
+    }
+   },
+   "3c74d9e8-da06-11e9-9a25-dca9047d3673": {
+    "pref": "boost_iterator/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_concept_check/1.69.0@bincrafters/stable#0": "3c74cc02-da06-11e9-b8eb-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_conversion/1.69.0@bincrafters/stable#0": "3c752594-da06-11e9-bdd9-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_function_types/1.69.0@bincrafters/stable#0": "3c74d8d2-da06-11e9-ab8c-dca9047d3673",
+     "boost_fusion/1.69.0@bincrafters/stable#0": "3c74cda6-da06-11e9-a372-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_optional/1.69.0@bincrafters/stable#0": "3c74db8c-da06-11e9-9ead-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   },
+   "3c74cf36-da06-11e9-9d07-dca9047d3673": {
+    "pref": "boost_predef/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ]
+   },
+   "3c74ccac-da06-11e9-977e-dca9047d3673": {
+    "pref": "boost_container/1.69.0@bincrafters/stable#0:1e09f0900325e3f276e68ea35922a812bbc2080a#0",
+    "options": "shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_intrusive/1.69.0@bincrafters/stable#0": "3c74d94a-da06-11e9-a152-dca9047d3673",
+     "boost_move/1.69.0@bincrafters/stable#0": "3c74db1e-da06-11e9-9b60-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c752594-da06-11e9-bdd9-dca9047d3673": {
+    "pref": "boost_conversion/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_typeof/1.69.0@bincrafters/stable#0": "3c74df1c-da06-11e9-bf99-dca9047d3673"
+    }
+   },
+   "3c74dfb4-da06-11e9-a517-dca9047d3673": {
+    "pref": "boost_utility/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74dd8c-da06-11e9-bfb1-dca9047d3673": {
+    "pref": "boost_regex/1.69.0@bincrafters/stable#0:516904296a3f3f0b31f428e71dd15f00c929858c#0",
+    "options": "shared=False\nuse_icu=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_concept_check/1.69.0@bincrafters/stable#0": "3c74cc02-da06-11e9-b8eb-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_iterator/1.69.0@bincrafters/stable#0": "3c74d9e8-da06-11e9-9a25-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_predef/1.69.0@bincrafters/stable#0": "3c74cf36-da06-11e9-9d07-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74da8a-da06-11e9-a6a8-dca9047d3673": {
+    "pref": "boost_locale/1.69.0@bincrafters/stable#0:b97ed5aeebb532fbebb9a25900b177504de06bea#0",
+    "options": "shared=False\nuse_icu=False\nboost_system:shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_function/1.69.0@bincrafters/stable#0": "3c74d88c-da06-11e9-ab8f-dca9047d3673",
+     "boost_iterator/1.69.0@bincrafters/stable#0": "3c74d9e8-da06-11e9-9a25-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_system/1.69.0@bincrafters/stable#0": "3c74ddfa-da06-11e9-8c76-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74d79c-da06-11e9-b660-dca9047d3673": {
+    "pref": "boost_exception/1.69.0@bincrafters/stable#0:413d38598d757a9f9c3212c1e8f6695d6b8d9526#0",
+    "options": "shared=False",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_smart_ptr/1.69.0@bincrafters/stable#0": "3c74cfd8-da06-11e9-9200-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_tuple/1.69.0@bincrafters/stable#0": "3c74d0c6-da06-11e9-995f-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74cd58-da06-11e9-a47b-dca9047d3673": {
+    "pref": "boost_detail/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673"
+    }
+   },
+   "3c74e0a2-da06-11e9-aea3-dca9047d3673": {
+    "pref": "bzip2/1.0.6@conan/stable#0:25d69afe851bfb8cb5aedd20123fa41e061f316e#0",
+    "options": "build_executable=True\nfPIC=True\nshared=False"
+   },
+   "3c74e188-da06-11e9-a4b2-dca9047d3673": {
+    "pref": "zstd/1.3.5@bincrafters/stable#0:534dcc368c999e07e81f146b3466b8f656ef1f55#0",
+    "options": "fPIC=True\nshared=False"
+   },
+   "3c74e002-da06-11e9-905c-dca9047d3673": {
+    "pref": "boost_variant/1.69.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": "",
+    "python_requires": [
+     "boost_base/1.69.0@bincrafters/stable#0"
+    ],
+    "requires": {
+     "boost_assert/1.69.0@bincrafters/stable#0": "3c74cb26-da06-11e9-8a0c-dca9047d3673",
+     "boost_bind/1.69.0@bincrafters/stable#0": "3c74d602-da06-11e9-bb6f-dca9047d3673",
+     "boost_config/1.69.0@bincrafters/stable#0": "3c74cc5c-da06-11e9-a774-dca9047d3673",
+     "boost_container_hash/1.69.0@bincrafters/stable#0": "3c74d6d4-da06-11e9-984b-dca9047d3673",
+     "boost_core/1.69.0@bincrafters/stable#0": "3c74ccfa-da06-11e9-b941-dca9047d3673",
+     "boost_detail/1.69.0@bincrafters/stable#0": "3c74cd58-da06-11e9-a47b-dca9047d3673",
+     "boost_integer/1.69.0@bincrafters/stable#0": "3c74cdec-da06-11e9-b9ed-dca9047d3673",
+     "boost_move/1.69.0@bincrafters/stable#0": "3c74db1e-da06-11e9-9b60-dca9047d3673",
+     "boost_mpl/1.69.0@bincrafters/stable#0": "3c74ce98-da06-11e9-a455-dca9047d3673",
+     "boost_preprocessor/1.69.0@bincrafters/stable#0": "3c74dc88-da06-11e9-b81f-dca9047d3673",
+     "boost_static_assert/1.69.0@bincrafters/stable#0": "3c74d026-da06-11e9-b9d6-dca9047d3673",
+     "boost_throw_exception/1.69.0@bincrafters/stable#0": "3c74d076-da06-11e9-9142-dca9047d3673",
+     "boost_type_index/1.69.0@bincrafters/stable#0": "3c7504cc-da06-11e9-924a-dca9047d3673",
+     "boost_type_traits/1.69.0@bincrafters/stable#0": "3c74d118-da06-11e9-b556-dca9047d3673",
+     "boost_utility/1.69.0@bincrafters/stable#0": "3c74dfb4-da06-11e9-a517-dca9047d3673"
+    }
+   }
+  }
+ },
+ "version": "0.1"
+}
