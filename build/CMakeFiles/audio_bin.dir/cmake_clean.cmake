@@ -1,11 +1,15 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/audio_bin.dir/srcs/main.cpp.o"
-  "CMakeFiles/audio_bin.dir/srcs/Babel.cpp.o"
-  "CMakeFiles/audio_bin.dir/srcs/Audio.cpp.o"
-  "CMakeFiles/audio_bin.dir/srcs/ADataTransfer.cpp.o"
-  "CMakeFiles/audio_bin.dir/srcs/network/Socket.cpp.o"
-  "bin/audio_bin.pdb"
+  "CMakeFiles/audio_bin_autogen.dir/AutogenOldSettings.txt"
+  "CMakeFiles/audio_bin_autogen.dir/ParseCache.txt"
+  "audio_bin_autogen"
+  "CMakeFiles/audio_bin.dir/audio_bin_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/audio_bin.dir/srcs/audio/ADataTransfer.cpp.o"
+  "CMakeFiles/audio_bin.dir/srcs/audio/Audio.cpp.o"
+  "CMakeFiles/audio_bin.dir/srcs/audio/Decoder.cpp.o"
+  "CMakeFiles/audio_bin.dir/srcs/audio/Encoder.cpp.o"
+  "CMakeFiles/audio_bin.dir/srcs/audio/main.cpp.o"
   "bin/audio_bin"
+  "bin/audio_bin.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

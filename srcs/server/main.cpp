@@ -2,7 +2,11 @@
 
 int main()
 {
-    babel::Server server(8000);
-    server.run();
+    try {
+        babel::Server server(8000, 8001);
+        server.run();
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
+    }
     return 0;
 }

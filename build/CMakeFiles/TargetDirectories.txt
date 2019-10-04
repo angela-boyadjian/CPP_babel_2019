@@ -1,5 +1,10 @@
-/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/rebuild_cache.dir
-/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/edit_cache.dir
-/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/client_bin.dir
-/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/server_bin.dir
-/Users/Angela/Documents/programming/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/audio_bin.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_server.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/audio_bin.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/rebuild_cache.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_client.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_gui.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/edit_cache.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_server_autogen.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/audio_bin_autogen.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_client_autogen.dir
+/home/angie/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_gui_autogen.dir

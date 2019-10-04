@@ -14,29 +14,44 @@
 #include <memory>
 #include "SocketException.hpp"
 
-namespace babel {
+using tcp = boost::asio::ip::tcp;
+using udp = boost::asio::ip::udp;
 
 class Socket {
-	using protocol = boost::asio::ip::tcp;
-
 	public:
-		Socket();
-		Socket(std::unique_ptr<protocol::socket> sock);
+		struct Infos {
+			std::string host;
+			int port;
+		};
+
+		enum class Type {
+			UDP,
+			TCP
+		};
+
+		Socket(Type type=Type::TCP);
+		Socket(std::unique_ptr<tcp::socket> sock);
+		Socket(std::unique_ptr<udp::socket> sock);
 		~Socket() = default;
 
-		void listen(int port);
+		void listen(int port=0); // port 0 mean random port assignation for udp
 		std::unique_ptr<Socket> accept(bool wait=false);
-        std::string receive(bool wait=false);
-		void send(std::string);
+		void send(const void *, size_t size, udp::endpoint *dest_endpoint=nullptr);
+        size_t receive(void *dest, size_t size, bool wait=false, udp::endpoint *sender_endpoint=nullptr);
 		void connect(std::string host, int port);
+
+		Infos getInfos(bool local);
 
 	protected:
 	private:
 
-		boost::asio::io_context _io_context;
-		std::unique_ptr<protocol::socket> _sock { nullptr };
-		std::unique_ptr<protocol::acceptor> _acceptor { nullptr };
-		std::unique_ptr<protocol::resolver> _resolver { nullptr };
-};
+		Type _type;
 
-}
+		boost::asio::io_context _io_context;
+		std::unique_ptr<tcp::socket> _sock_tcp { nullptr };
+		std::unique_ptr<udp::socket> _sock_udp { nullptr };
+
+		std::unique_ptr<tcp::acceptor> _acceptor { nullptr };
+
+		std::unique_ptr<udp::endpoint> _dest_endpoint;
+};
