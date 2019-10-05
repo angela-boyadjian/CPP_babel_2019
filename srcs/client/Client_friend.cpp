@@ -14,7 +14,7 @@ namespace babel {
         auto id = req.data.addFriend.id;
         auto it = std::find_if(_friends.begin(), _friends.end(), [id](auto f){ return f.id == id; });
         if (it == _friends.end()) {
-            std::cout << "New friend " << req.data.addFriend.id << ": " << req.data.addFriend.name << std::endl;
+            // std::cout << "New friend " << req.data.addFriend.id << ": " << req.data.addFriend.name << std::endl;
             _friends.push_back(req.data.addFriend);
         } else {
            strcpy((*it).name, req.data.addFriend.name);
@@ -32,8 +32,18 @@ namespace babel {
         Request req(Request::Type::REMOVE_FRIEND);
         req.data.addFriend.id = targetId;
         _server.send(&req, sizeof(Request));
-        auto it = std::find_if(_friends.begin(), _friends.end(), [targetId](auto f){ return f.id == targetId; });
+        _removeFriend(targetId);
+    }
+
+    void Client::_removeFriend(int target)
+    {
+        auto it = std::find_if(_friends.begin(), _friends.end(), [target](auto f){ return f.id == target; });
         if (it != _friends.end()) _friends.erase(it);
+    }
+
+    void Client::_removeFriend(Request &req)
+    {
+        _removeFriend(req.data.addFriend.id);
     }
 
     void Client::addFriend(Id id)

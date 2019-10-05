@@ -31,6 +31,7 @@ class Client {
 		bool registerClient(std::string name, std::string password);
 		bool login(std::string name, std::string password);
 		bool addFriend(int id, database::Client *newFriend);
+		bool removeFriend(int id);
 		std::vector<database::Client> getClientsFromName(std::string name);
 
         std::unique_ptr<Socket> socket;

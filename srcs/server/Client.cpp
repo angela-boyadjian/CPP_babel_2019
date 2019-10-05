@@ -79,6 +79,16 @@ bool Client::addFriend(int id, database::Client *newFriend)
     return true;
 }
 
+bool Client::removeFriend(int id)
+{
+    try {
+        database::Connector::get().remove_all<database::Friends>(where(c(&database::Friends::owner) == getId() && c(&database::Friends::target) == id));
+        return true;
+    } catch (...) {
+        return false;
+    }
+}
+
 bool Client::login(std::string name, std::string password)
 {
     auto client = database::Connector::get().get_all<database::Client>(sqlite_orm::where(sqlite_orm::is_equal(&database::Client::name, name)));

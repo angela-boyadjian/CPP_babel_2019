@@ -17,7 +17,7 @@ class Decoder {
 		Decoder(int sampleRate, int channels);
 		~Decoder();
 
-        int decode(Packet &input, SoundItem &output, int inputSize, int frameSize);
+        int decode(Packet *input, SoundItem &output, int inputSize, int frameSize);
 
     private:
         void initDecoder(int sampleRate, int channels);

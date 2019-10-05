@@ -8,6 +8,7 @@ import babel.qt.login 1.0
 import "Components" as Cmp
 
 Item {
+    Cmp.ErrPopUp { id: popUpError }
     Rectangle {
         Login { id: loginObj }
         width: 1200; height: 800
@@ -67,7 +68,8 @@ Item {
             onClicked: {
                 let status = loginObj.sign(login.text, password.text, address.text);
                 if (status == false) {
-                    // TODO handle wrong password
+                    popUpError.errorText = "Failed to login";
+                    popUpError.open();
                 } else {
                     load_page("Home");
                 }

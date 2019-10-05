@@ -18,6 +18,8 @@ Login::Login(QObject *parent) :
 
 Q_INVOKABLE bool Login::sign(QString const &username, QString const &password, QString const &address) const
 {
+    if (username == "" || password == "" || address == "")
+        return false;
     auto client = Network::getInstance(address.toUtf8().constData())->getClient();
     try {
         std::cout << "try to log" << std::endl;

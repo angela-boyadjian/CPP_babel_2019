@@ -41,6 +41,7 @@ class Server {
         RequestHandling *acceptCall(Client &client, Request &rq, RequestHandling *response);
         RequestHandling *denyCall(Client &client, Request &rq, RequestHandling *response);
         RequestHandling *addFriend(Client &client, Request &rq, RequestHandling *response);
+        RequestHandling *removeFriend(Client &client, Request &rq, RequestHandling *response);
         RequestHandling *friendsList(Client &client, Request &rq, RequestHandling *response);
         RequestHandling *getClientFromName(Client &client, Request &rq, RequestHandling *response);
         RequestHandling *hangUp(Client &client, Request &rq, RequestHandling *response);
@@ -61,6 +62,7 @@ class Server {
             { Request::Type::CLIENT_REGISTER, { false, &Server::registerClient } },
             { Request::Type::MESSAGE, { true, &Server::handleMessage } },
             { Request::Type::ADD_FRIEND, { true, &Server::addFriend } },
+            { Request::Type::REMOVE_FRIEND, { true, &Server::removeFriend } },
             { Request::Type::FRIENDS_LIST, { true, &Server::friendsList } },
             { Request::Type::CALL_REQUEST, { true, &Server::requestCall } },
             { Request::Type::CALL_ACCEPT, { true, &Server::acceptCall } },

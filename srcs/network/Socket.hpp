@@ -39,6 +39,7 @@ class Socket {
 		void send(const void *, size_t size, udp::endpoint *dest_endpoint=nullptr);
         size_t receive(void *dest, size_t size, bool wait=false, udp::endpoint *sender_endpoint=nullptr);
 		void connect(std::string host, int port);
+		void clear();
 
 		Infos getInfos(bool local);
 

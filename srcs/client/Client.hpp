@@ -72,6 +72,8 @@ class Client {
         void updateFriend(Request &req);
         void _stopCallRequest(Request &req);
         void _stopCall();
+        void _removeFriend(int target);
+        void _removeFriend(Request &req);
 
         void callRequest(Request &req);
         void callAccept(Request &req);
@@ -95,6 +97,7 @@ class Client {
             { Request::Type::MESSAGE, &Client::messageReceive },
             { Request::Type::FRIEND_INFO, &Client::updateFriend },
             { Request::Type::HANG_UP, &Client::_stopCallRequest },
+            { Request::Type::REMOVE_FRIEND, &Client::_removeFriend },
         };
 };
 

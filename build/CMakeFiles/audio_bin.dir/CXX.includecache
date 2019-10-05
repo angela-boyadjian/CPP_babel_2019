@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include/opus/opus.h
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include/opus/opus.h
 opus_types.h
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include/opus/opus_types.h
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include/opus/opus_types.h
 opus_defines.h
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include/opus/opus_defines.h
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include/opus/opus_defines.h
 
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include/opus/opus_defines.h
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include/opus/opus_defines.h
 opus_types.h
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include/opus/opus_types.h
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include/opus/opus_types.h
 
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include/opus/opus_types.h
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include/opus/opus_types.h
 stdint.h
 -
 _G_config.h
@@ -28,19 +28,17 @@ sys/types.h
 inttypes.h
 -
 
-/home/angie/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include/portaudio.h
+/home/ranita/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include/portaudio.h
 
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/build/audio_bin_autogen/mocs_compilation.cpp
+
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/./ADataTransfer.hpp
 queue
 -
 array
 -
 
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Audio.cpp
-Audio.hpp
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Audio.hpp
-
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Audio.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/./Audio.hpp
 iostream
 -
 portaudio.h
@@ -52,7 +50,7 @@ memory.h
 sstream
 -
 ADataTransfer.hpp
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/./ADataTransfer.hpp
 array
 -
 iostream
@@ -60,39 +58,83 @@ iostream
 algorithm
 -
 Encoder.hpp
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Encoder.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/./Encoder.hpp
 vector
 -
 
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Decoder.cpp
-Decoder.hpp
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Decoder.hpp
-string
--
-iostream
--
-
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Decoder.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/./Encoder.hpp
 opus/opus.h
 -
 ADataTransfer.hpp
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/./ADataTransfer.hpp
 
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Encoder.cpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.cpp
+ADataTransfer.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.hpp
+
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.hpp
+queue
+-
+array
+-
+
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Audio.cpp
+Audio.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Audio.hpp
+
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Audio.hpp
+iostream
+-
+portaudio.h
+-
+fstream
+-
+memory.h
+-
+sstream
+-
+ADataTransfer.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.hpp
+array
+-
+iostream
+-
+algorithm
+-
 Encoder.hpp
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Encoder.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Encoder.hpp
+vector
+-
+
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Decoder.cpp
+Decoder.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Decoder.hpp
 string
 -
 iostream
 -
 
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Encoder.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Decoder.hpp
 opus/opus.h
 -
 ADataTransfer.hpp
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.hpp
 
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/main.cpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Encoder.cpp
+Encoder.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Encoder.hpp
+string
+-
+iostream
+-
+
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Encoder.hpp
+opus/opus.h
+-
+ADataTransfer.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/ADataTransfer.hpp
+
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/main.cpp
 iostream
 -
 portaudio.h
@@ -100,5 +142,5 @@ portaudio.h
 opus/opus.h
 -
 ./Audio.hpp
-/home/angie/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/Audio.hpp
+/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/srcs/audio/./Audio.hpp
 

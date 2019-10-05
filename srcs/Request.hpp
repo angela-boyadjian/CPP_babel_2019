@@ -23,6 +23,7 @@ struct ClientInfos {
 
 struct Message {
     Id targetId;
+    Id senderId;
     char message[MAX_MESSAGE_LEN + 1];
 };
 

@@ -100,6 +100,12 @@ void Socket::send(const void *data, size_t size, udp::endpoint *dest_endpoint)
     }
 }
 
+void Socket::clear()
+{
+    char buff[256] = { 0 };
+    while (receive(buff, 256, false) == 256) {};
+}
+
 Socket::Infos Socket::getInfos(bool local)
 {
     if (_type == Type::TCP) {

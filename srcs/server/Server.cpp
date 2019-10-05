@@ -177,6 +177,7 @@ RequestHandling *Server::handleMessage(Client &client, Request &rq, RequestHandl
     handler->broadcastType = TO_ONE;
     handler->targetsinfos.singleTarget = rq.data.message.targetId;
     handler->response.type = Request::Type::MESSAGE;
+    handler->response.data.message.senderId = client.getId();
     strcpy(handler->response.data.message.message, rq.data.message.message);
     return handler;
 }
@@ -194,6 +195,18 @@ RequestHandling *Server::addFriend(Client &client, Request &rq, RequestHandling 
     }
     return response;
 }
+
+RequestHandling *Server::removeFriend(Client &client, Request &rq, RequestHandling *response)
+{
+    response->broadcastType = BroadcastType::TO_ONE;
+    response->targetsinfos.singleTarget = client.getId();
+    response->response.type = Request::Type::FAILURE;
+    if (client.removeFriend(rq.data.addFriend.id)) {
+        response->response.type = Request::Type::REMOVE_FRIEND;
+    }
+    return response;
+}
+
 
 RequestHandling *Server::friendsList(Client &client, Request &rq, RequestHandling *response)
 {

@@ -16,22 +16,22 @@
 
 class Contacts : public QObject {
     Q_OBJECT
-      Q_PROPERTY(QStringList friendList READ friendList)
-	public:
-		explicit Contacts(QObject *parent = nullptr);
-		~Contacts() = default;
+    Q_PROPERTY(QStringList friendList READ friendList)
+public:
+	explicit Contacts(QObject *parent = nullptr);
+	~Contacts() = default;
 
-    	void getFriends();
-		QStringList friendList() const;
-		
-		Q_INVOKABLE bool addFriend(QString name);
-		Q_INVOKABLE void removeFriend(QString name);
-		Q_INVOKABLE void debug(QString s) const;
-		
-	signals:
-		void friendListChanged();
+	void getFriends();
+	QStringList friendList() const;
+	
+	Q_INVOKABLE bool addFriend(QString name);
+	Q_INVOKABLE void removeFriend(QString name);
+	Q_INVOKABLE void debug(QString s) const;
+	
+signals:
+	void friendListChanged();
 
-	private:
-		//void displayList() const;
-		QStringList _friendsList;
+private:
+	//void displayList() const;
+	QStringList _friendsList;
 };

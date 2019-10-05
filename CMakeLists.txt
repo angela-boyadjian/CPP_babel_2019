@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.5)
 project(Babel)
 
+# NOTE Do not remove
+if(${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
+    set(CMAKE_PREFIX_PATH $ENV{HOME}/Qt/5.13.1/gcc_64)
+endif()
+
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 
@@ -13,7 +18,7 @@ include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 
 set(SRC_AUDIO
-    ./srcs/audio/main.cpp
+    # ./srcs/audio/main.cpp
     ./srcs/audio/Audio.cpp
     ./srcs/audio/ADataTransfer.cpp
     ./srcs/audio/Encoder.cpp
@@ -30,7 +35,7 @@ set(SRC_SERVER
 )
 
 set(SRC_CLIENT
-    ./srcs/client/main.cpp
+    # ./srcs/client/main.cpp
     ./srcs/client/Client.cpp
     ./srcs/client/Client_call.cpp
     ./srcs/client/Client_friend.cpp
@@ -47,6 +52,7 @@ set(SRC_CLIENT
 
 set(SRC_GUI
     ./srcs/gui/CPP/main.cpp
+    ./srcs/gui/CPP/Messager.cpp
     ./srcs/gui/CPP/Call.cpp
     ./srcs/gui/CPP/Worker.cpp
     ./srcs/gui/CPP/Contacts.cpp
@@ -54,18 +60,6 @@ set(SRC_GUI
     ./srcs/gui/CPP/Network.cpp
     ./srcs/gui/CPP/Settings.cpp
     ./srcs/gui/CPP/Engine.cpp
-    ./srcs/client/Client.cpp
-    ./srcs/client/Client_call.cpp
-    ./srcs/client/Client_friend.cpp
-    ./srcs/client/AudioModule.cpp
-    ./srcs/audio/ADataTransfer.cpp
-    ./srcs/audio/Audio.cpp
-    ./srcs/audio/Receiver.cpp
-    ./srcs/audio/Sender.cpp
-    ./srcs/audio/Encoder.cpp
-    ./srcs/audio/Decoder.cpp
-    ./srcs/network/Socket.cpp
-    ./srcs/client/AudioModule.cpp
 )
 
 set(RESSOURCES_GUI
@@ -80,14 +74,14 @@ find_package(Qt5Test REQUIRED)
 
 qt5_add_resources(RESOURCES ${RESSOURCES_GUI})
 
-add_executable(audio_bin ${SRC_AUDIO})
+# add_executable(audio_bin ${SRC_AUDIO})
 add_executable(babel_server ${SRC_SERVER})
-add_executable(babel_client ${SRC_CLIENT})
-add_executable(babel_gui ${SRC_GUI} ${RESOURCES})
+# add_executable(babel_client ${SRC_CLIENT})
+add_executable(babel_gui ${SRC_GUI} ${SRC_CLIENT} ${SRC_AUDIO} ${RESOURCES})
 
-target_link_libraries(audio_bin ${CONAN_LIBS})
+# target_link_libraries(audio_bin ${CONAN_LIBS})
 target_link_libraries(babel_server ${CONAN_LIBS})
-target_link_libraries(babel_client ${CONAN_LIBS})
+# target_link_libraries(babel_client ${CONAN_LIBS})
 
 target_link_libraries(babel_gui ${CONAN_LIBS})
 target_link_libraries(babel_gui Qt5::Core)

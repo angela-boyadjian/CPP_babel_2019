@@ -7,22 +7,18 @@ import babel.qt.worker 1.0
 import babel.qt.contacts 1.0
 import babel.qt.call 1.0
 
+import "Components" as Cmp
+
 Item {
     id: contactColumns
+    objectName: "ContactObject"
     width: 1200; height:800
-
 
     ContactModel { id: cm }
     Worker { id: worker }
-    objectName: "ContactObject"
 
     signal clickedAccept()
     signal clickedDeny()
-
-    Chat {
-        id: chat
-        inConversationWith: "       "
-    }
 
     Image { source: "qrc:/Images/home_background.png" }
     
@@ -32,9 +28,15 @@ Item {
             cm.clearListElement();
             for (let i = 0; i < friendList.length; i++) {
                 const param = friendList[i].split('.');
-                cm.createListElement(param[0], param[1]);
+                cm.createListElement(param[0], param[1], "");
             }
+            centerText.text = cm.getElementById(2).name;
+            chat.target = 2
         }
+    }
+
+    Chat {
+        id: chat
     }
 
     CallRequest {
@@ -53,7 +55,7 @@ Item {
         id: callObj
         onCallingYou: {
             callPopup.open();
-            callPopup.popupName = cm.getElementName(callerId).name;
+            callPopup.popupName = cm.getElementById(callerId).name;
         }
     }
 
@@ -67,8 +69,7 @@ Item {
         font.pointSize: 25;
         font.bold: true
         smooth:true
-        text: "Rani"
-        visible: false
+        visible: true
     }
 
     Image {
@@ -76,7 +77,7 @@ Item {
         x: 450; y: 80
         width: 60; height: 60
         source: "qrc:/Images/smile.png"
-        visible: false
+        visible: true
     }
 
     Image {
@@ -84,7 +85,7 @@ Item {
         x: centerText.x + 200; y:  80
         width: 50; height: 50
         source: "qrc:/Images/call.png"
-        visible: false
+        visible: true
         MouseArea {
             anchors.fill: parent
             onClicked: {
@@ -176,6 +177,9 @@ Item {
                 onClicked: {
                     if (contacts.addFriend(textFiedlAddFriend.text) == true) {
                         textFiedlAddFriend.text = "";
+                    } else {
+                        popUpError.errorText = "Unknow username";
+                        popUpError.open();
                     }
                 }
             }
@@ -243,6 +247,7 @@ Item {
                             statusImg.source = "Images/smile.png"
                         }
                         centerText.text = name;
+                        chat.target = cm.getElementByName(centerText.text).id;
                         centerText.visible = true;
                         onClicked: ListView.currentIndex = index;
                     }

@@ -6,6 +6,7 @@
         <file>Profile.qml</file>
         <file>Settings.qml</file>
         <file>ContactModel.qml</file>
+        <file>MessageModel.qml</file>
         <file>ContactsColumn.qml</file>
         <file>HeaderBar.qml</file>
         <file>CallRequest.qml</file>

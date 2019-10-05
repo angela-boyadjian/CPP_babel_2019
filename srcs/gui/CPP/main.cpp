@@ -5,6 +5,9 @@
 ** main
 */
 
+#include <QQuickStyle>
+#include <QSettings>
+
 #include "Engine.hpp"
 
 #include "Worker.hpp"
@@ -13,8 +16,7 @@
 #include "Network.hpp"
 #include "Settings.hpp"
 #include "Call.hpp"
-#include <QQuickStyle>
-#include <QSettings>
+#include "Messager.hpp"
 
 int main(int argc, char *argv[])
 {
@@ -32,6 +34,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<Worker>("babel.qt.worker", 1, 0, "Worker");
     qmlRegisterType<Settings>("babel.qt.settings", 1, 0, "Settings");
     qmlRegisterType<Call>("babel.qt.call", 1, 0, "Call");
+    qmlRegisterType<Messager>("babel.qt.messager", 1, 0, "Messager");
 
     QSettings s("Babel", "Epitech");
 
@@ -43,7 +46,7 @@ int main(int argc, char *argv[])
             QCoreApplication::exit(-1);
     }, Qt::QueuedConnection);
     engine->load(url);
-    int ret = app->exec();
+    auto ret {app->exec()};
     delete engine;
     delete app;
     return ret;

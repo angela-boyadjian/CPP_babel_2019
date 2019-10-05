@@ -25,7 +25,6 @@ class Receiver : public ADataTransfer {
 	protected:
 	private:
 		Decoder decoder;
-		int nextPacketId;
 };
 
 }

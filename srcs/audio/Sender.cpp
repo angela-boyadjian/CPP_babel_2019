@@ -21,22 +21,18 @@ Sender::~Sender()
 
 void Sender::send(Socket &sock)
 {
-    int id = 0;
-
     if (inputStream->size() == 0) return;
 
     while (inputStream->size() > 0) {
         SoundItem next = inputStream->front();
         Packet output = { 0 };
-        Audio::AudioHeader header { };
-        header.size = encoder.encode(next, output, FrameSize);
-        header.packetId = id;
-        sock.send(&header, sizeof(Audio::AudioHeader));
-        sock.send(output.data(), header.size);
+        Audio::AudioPacket packet { };
+        //packet.data = {0};
+        packet.size = encoder.encode(next, output, FrameSize);
+        // std::cout << "packet size = " << sizeof(Audio::AudioPacket) << std::endl;
+        memcpy(packet.data, output.data(), packet.size);
+        sock.send(&packet, sizeof(Audio::AudioPacket));
         inputStream->pop();
-        id++;
-        if (id == 10)
-            id = 0;
     };
 }
 

@@ -1,299 +1,299 @@
 [includedirs]
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include/opus
-/home/angie/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
-/home/angie/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/include
-/home/angie/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
-/home/angie/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/30dd52e8692bb0b85559b9992e17730ff6d9fadc/coroutine/include
-/home/angie/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/6745b2c67ece017487d93454786f9082519559e7/include
-/home/angie/.conan/data/boost_context/1.69.0/bincrafters/stable/package/e1d6e78cb626c1ecefa505df68faf7584827e62c/context/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/date_time/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/dynamic_bitset/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/iostreams/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/multiprecision/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/random/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/serialization/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/spirit/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/thread/include
-/home/angie/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/e9afef662934d65c0636bef5e7e71a6a280c41f4/chrono/include
-/home/angie/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/include
-/home/angie/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/include
-/home/angie/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/b243e4da43cf9766b4c3983f063aac1332c8df65/filesystem/include
-/home/angie/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/include
-/home/angie/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/d1e7302ad8daf99646a1b09c2547bb1f7a0d8c41/locale/include
-/home/angie/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/include
-/home/angie/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/include
-/home/angie/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/include
-/home/angie/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/include
-/home/angie/.conan/data/bzip2/1.0.6/conan/stable/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/include
-/home/angie/.conan/data/zlib/1.2.11/conan/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
-/home/angie/.conan/data/lzma/5.2.4/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
-/home/angie/.conan/data/zstd/1.3.5/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
-/home/angie/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/include
-/home/angie/.conan/data/boost_system/1.69.0/bincrafters/stable/package/ef8c7c721e8d66670a83b1998d4908e4b3efe4c1/system/include
-/home/angie/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/include
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/lexical_cast/include
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/math/include
-/home/angie/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/include
-/home/angie/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/include
-/home/angie/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/include
-/home/angie/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/16c5dd82e796fdd06758ec61fc0adb3d78106ed4/atomic/include
-/home/angie/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/include
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/algorithm/include
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/range/include
-/home/angie/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/include
-/home/angie/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/d872abd6e8c7159e57c5d2f37f67347592d6c44e/exception/include
-/home/angie/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/include
-/home/angie/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/include
-/home/angie/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/36dc7ed9419f6b438aeabc9906877627967d7b52/regex/include
-/home/angie/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/include
-/home/angie/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/include
-/home/angie/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/include
-/home/angie/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/include
-/home/angie/.conan/data/boost_container/1.69.0/bincrafters/stable/package/30b84cae7d8c19e290a03dd8f645abf7dc51f3ed/container/include
-/home/angie/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/include
-/home/angie/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/include
-/home/angie/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/include
-/home/angie/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/include
-/home/angie/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/include
-/home/angie/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/include
-/home/angie/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/include
-/home/angie/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/include
-/home/angie/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/include
-/home/angie/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/include
-/home/angie/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/include
-/home/angie/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/include
-/home/angie/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/include
-/home/angie/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/include
-/home/angie/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/include
-/home/angie/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/include
-/home/angie/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/include
-/home/angie/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/include
-/home/angie/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/include
-/home/angie/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/include
-/home/angie/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/include
-/home/angie/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/include
-/home/angie/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/include
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include/opus
+/home/ranita/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
+/home/ranita/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/include
+/home/ranita/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
+/home/ranita/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/2169d5fa3ebc1b52dc69c38d66b237e2ec90f76c/coroutine/include
+/home/ranita/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/d387bd2221c901be07c63764726be9c0ed6ae28a/include
+/home/ranita/.conan/data/boost_context/1.69.0/bincrafters/stable/package/2127b5433c7397714fc80a148dcae6416cf4fed4/context/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/date_time/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/dynamic_bitset/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/iostreams/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/multiprecision/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/random/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/serialization/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/spirit/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/thread/include
+/home/ranita/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/cea124d8e4ab85f4b133e593d26dcf2c196bb060/chrono/include
+/home/ranita/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/include
+/home/ranita/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/include
+/home/ranita/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/d1735e43cb9dd2040d0990179460b84ba68810eb/filesystem/include
+/home/ranita/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/include
+/home/ranita/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/a9c6503754627a8af6a6a087643eff5d75e405a4/locale/include
+/home/ranita/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/include
+/home/ranita/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/include
+/home/ranita/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/include
+/home/ranita/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/include
+/home/ranita/.conan/data/bzip2/1.0.6/conan/stable/package/b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3/include
+/home/ranita/.conan/data/zlib/1.2.11/conan/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
+/home/ranita/.conan/data/lzma/5.2.4/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
+/home/ranita/.conan/data/zstd/1.3.5/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
+/home/ranita/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/include
+/home/ranita/.conan/data/boost_system/1.69.0/bincrafters/stable/package/5d3269032fa66fb1348d833701d20ee65a112cbb/system/include
+/home/ranita/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/include
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/lexical_cast/include
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/math/include
+/home/ranita/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/include
+/home/ranita/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/include
+/home/ranita/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/include
+/home/ranita/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/072858e3bd28aa59a277a52ddc7f497977092ae1/atomic/include
+/home/ranita/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/include
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/algorithm/include
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/range/include
+/home/ranita/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/include
+/home/ranita/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/185b053592e8a7d1706881609825dba43dd1e903/exception/include
+/home/ranita/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/include
+/home/ranita/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/include
+/home/ranita/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/3c20363a80a75ed29ff1c16fb3a7a7c228d236b3/regex/include
+/home/ranita/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/include
+/home/ranita/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/include
+/home/ranita/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/include
+/home/ranita/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/include
+/home/ranita/.conan/data/boost_container/1.69.0/bincrafters/stable/package/2f2af37891b1057b793eb117ac294ba7ddf52a84/container/include
+/home/ranita/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/include
+/home/ranita/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/include
+/home/ranita/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/include
+/home/ranita/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/include
+/home/ranita/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/include
+/home/ranita/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/include
+/home/ranita/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/include
+/home/ranita/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/include
+/home/ranita/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/include
+/home/ranita/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/include
+/home/ranita/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/include
+/home/ranita/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/include
+/home/ranita/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/include
+/home/ranita/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/include
+/home/ranita/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/include
+/home/ranita/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/include
+/home/ranita/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/include
+/home/ranita/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/include
+/home/ranita/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/include
+/home/ranita/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/include
+/home/ranita/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/include
+/home/ranita/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/include
+/home/ranita/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/include
 
 [libdirs]
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
-/home/angie/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
-/home/angie/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/lib
-/home/angie/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/30dd52e8692bb0b85559b9992e17730ff6d9fadc/coroutine/lib
-/home/angie/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/6745b2c67ece017487d93454786f9082519559e7/lib
-/home/angie/.conan/data/boost_context/1.69.0/bincrafters/stable/package/e1d6e78cb626c1ecefa505df68faf7584827e62c/context/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/date_time/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/dynamic_bitset/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/iostreams/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/multiprecision/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/random/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/serialization/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/spirit/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/thread/lib
-/home/angie/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/e9afef662934d65c0636bef5e7e71a6a280c41f4/chrono/lib
-/home/angie/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/lib
-/home/angie/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/lib
-/home/angie/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/b243e4da43cf9766b4c3983f063aac1332c8df65/filesystem/lib
-/home/angie/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/lib
-/home/angie/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/d1e7302ad8daf99646a1b09c2547bb1f7a0d8c41/locale/lib
-/home/angie/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/lib
-/home/angie/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/lib
-/home/angie/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/lib
-/home/angie/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/lib
-/home/angie/.conan/data/bzip2/1.0.6/conan/stable/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/lib
-/home/angie/.conan/data/zlib/1.2.11/conan/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
-/home/angie/.conan/data/lzma/5.2.4/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
-/home/angie/.conan/data/zstd/1.3.5/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
-/home/angie/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/lib
-/home/angie/.conan/data/boost_system/1.69.0/bincrafters/stable/package/ef8c7c721e8d66670a83b1998d4908e4b3efe4c1/system/lib
-/home/angie/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/lib
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/lexical_cast/lib
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/math/lib
-/home/angie/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/lib
-/home/angie/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/lib
-/home/angie/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/lib
-/home/angie/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/16c5dd82e796fdd06758ec61fc0adb3d78106ed4/atomic/lib
-/home/angie/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/lib
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/algorithm/lib
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/range/lib
-/home/angie/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/lib
-/home/angie/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/d872abd6e8c7159e57c5d2f37f67347592d6c44e/exception/lib
-/home/angie/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/lib
-/home/angie/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/lib
-/home/angie/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/36dc7ed9419f6b438aeabc9906877627967d7b52/regex/lib
-/home/angie/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/lib
-/home/angie/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/lib
-/home/angie/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/lib
-/home/angie/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/lib
-/home/angie/.conan/data/boost_container/1.69.0/bincrafters/stable/package/30b84cae7d8c19e290a03dd8f645abf7dc51f3ed/container/lib
-/home/angie/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/lib
-/home/angie/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/lib
-/home/angie/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/lib
-/home/angie/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/lib
-/home/angie/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/lib
-/home/angie/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/lib
-/home/angie/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/lib
-/home/angie/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/lib
-/home/angie/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/lib
-/home/angie/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/lib
-/home/angie/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/lib
-/home/angie/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/lib
-/home/angie/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/lib
-/home/angie/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/lib
-/home/angie/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/lib
-/home/angie/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/lib
-/home/angie/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/lib
-/home/angie/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/lib
-/home/angie/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/lib
-/home/angie/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/lib
-/home/angie/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/lib
-/home/angie/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/lib
-/home/angie/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/lib
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
+/home/ranita/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
+/home/ranita/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/lib
+/home/ranita/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/2169d5fa3ebc1b52dc69c38d66b237e2ec90f76c/coroutine/lib
+/home/ranita/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/d387bd2221c901be07c63764726be9c0ed6ae28a/lib
+/home/ranita/.conan/data/boost_context/1.69.0/bincrafters/stable/package/2127b5433c7397714fc80a148dcae6416cf4fed4/context/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/date_time/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/dynamic_bitset/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/iostreams/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/multiprecision/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/random/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/serialization/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/spirit/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/thread/lib
+/home/ranita/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/cea124d8e4ab85f4b133e593d26dcf2c196bb060/chrono/lib
+/home/ranita/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/lib
+/home/ranita/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/lib
+/home/ranita/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/d1735e43cb9dd2040d0990179460b84ba68810eb/filesystem/lib
+/home/ranita/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/lib
+/home/ranita/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/a9c6503754627a8af6a6a087643eff5d75e405a4/locale/lib
+/home/ranita/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/lib
+/home/ranita/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/lib
+/home/ranita/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/lib
+/home/ranita/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/lib
+/home/ranita/.conan/data/bzip2/1.0.6/conan/stable/package/b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3/lib
+/home/ranita/.conan/data/zlib/1.2.11/conan/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
+/home/ranita/.conan/data/lzma/5.2.4/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
+/home/ranita/.conan/data/zstd/1.3.5/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
+/home/ranita/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/lib
+/home/ranita/.conan/data/boost_system/1.69.0/bincrafters/stable/package/5d3269032fa66fb1348d833701d20ee65a112cbb/system/lib
+/home/ranita/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/lexical_cast/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/math/lib
+/home/ranita/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/lib
+/home/ranita/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/lib
+/home/ranita/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/lib
+/home/ranita/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/072858e3bd28aa59a277a52ddc7f497977092ae1/atomic/lib
+/home/ranita/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/algorithm/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/range/lib
+/home/ranita/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/lib
+/home/ranita/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/185b053592e8a7d1706881609825dba43dd1e903/exception/lib
+/home/ranita/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/lib
+/home/ranita/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/lib
+/home/ranita/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/3c20363a80a75ed29ff1c16fb3a7a7c228d236b3/regex/lib
+/home/ranita/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/lib
+/home/ranita/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/lib
+/home/ranita/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/lib
+/home/ranita/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/lib
+/home/ranita/.conan/data/boost_container/1.69.0/bincrafters/stable/package/2f2af37891b1057b793eb117ac294ba7ddf52a84/container/lib
+/home/ranita/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/lib
+/home/ranita/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/lib
+/home/ranita/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/lib
+/home/ranita/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/lib
+/home/ranita/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/lib
+/home/ranita/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/lib
+/home/ranita/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/lib
+/home/ranita/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/lib
+/home/ranita/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/lib
+/home/ranita/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/lib
+/home/ranita/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/lib
+/home/ranita/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/lib
+/home/ranita/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/lib
+/home/ranita/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/lib
+/home/ranita/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/lib
+/home/ranita/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/lib
+/home/ranita/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/lib
+/home/ranita/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/lib
+/home/ranita/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/lib
+/home/ranita/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/lib
+/home/ranita/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/lib
+/home/ranita/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/lib
+/home/ranita/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/lib
 
 [bindirs]
-/home/angie/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/lib
-/home/angie/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/30dd52e8692bb0b85559b9992e17730ff6d9fadc/coroutine/lib
-/home/angie/.conan/data/boost_context/1.69.0/bincrafters/stable/package/e1d6e78cb626c1ecefa505df68faf7584827e62c/context/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/date_time/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/dynamic_bitset/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/iostreams/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/multiprecision/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/random/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/serialization/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/spirit/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/thread/lib
-/home/angie/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/e9afef662934d65c0636bef5e7e71a6a280c41f4/chrono/lib
-/home/angie/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/lib
-/home/angie/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/lib
-/home/angie/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/b243e4da43cf9766b4c3983f063aac1332c8df65/filesystem/lib
-/home/angie/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/lib
-/home/angie/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/d1e7302ad8daf99646a1b09c2547bb1f7a0d8c41/locale/lib
-/home/angie/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/lib
-/home/angie/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/lib
-/home/angie/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/lib
-/home/angie/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/lib
-/home/angie/.conan/data/bzip2/1.0.6/conan/stable/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/bin
-/home/angie/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/lib
-/home/angie/.conan/data/boost_system/1.69.0/bincrafters/stable/package/ef8c7c721e8d66670a83b1998d4908e4b3efe4c1/system/lib
-/home/angie/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/lib
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/lexical_cast/lib
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/math/lib
-/home/angie/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/lib
-/home/angie/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/lib
-/home/angie/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/lib
-/home/angie/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/16c5dd82e796fdd06758ec61fc0adb3d78106ed4/atomic/lib
-/home/angie/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/lib
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/algorithm/lib
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/range/lib
-/home/angie/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/lib
-/home/angie/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/d872abd6e8c7159e57c5d2f37f67347592d6c44e/exception/lib
-/home/angie/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/lib
-/home/angie/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/lib
-/home/angie/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/36dc7ed9419f6b438aeabc9906877627967d7b52/regex/lib
-/home/angie/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/lib
-/home/angie/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/lib
-/home/angie/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/lib
-/home/angie/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/lib
-/home/angie/.conan/data/boost_container/1.69.0/bincrafters/stable/package/30b84cae7d8c19e290a03dd8f645abf7dc51f3ed/container/lib
-/home/angie/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/lib
-/home/angie/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/lib
-/home/angie/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/lib
-/home/angie/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/lib
-/home/angie/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/lib
-/home/angie/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/lib
-/home/angie/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/lib
-/home/angie/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/lib
-/home/angie/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/lib
-/home/angie/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/lib
-/home/angie/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/lib
-/home/angie/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/lib
-/home/angie/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/lib
-/home/angie/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/lib
-/home/angie/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/lib
-/home/angie/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/lib
-/home/angie/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/lib
-/home/angie/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/lib
-/home/angie/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/lib
-/home/angie/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/lib
-/home/angie/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/lib
-/home/angie/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/lib
-/home/angie/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/lib
+/home/ranita/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/lib
+/home/ranita/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/2169d5fa3ebc1b52dc69c38d66b237e2ec90f76c/coroutine/lib
+/home/ranita/.conan/data/boost_context/1.69.0/bincrafters/stable/package/2127b5433c7397714fc80a148dcae6416cf4fed4/context/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/date_time/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/dynamic_bitset/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/iostreams/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/multiprecision/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/random/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/serialization/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/spirit/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/thread/lib
+/home/ranita/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/cea124d8e4ab85f4b133e593d26dcf2c196bb060/chrono/lib
+/home/ranita/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/lib
+/home/ranita/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/lib
+/home/ranita/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/d1735e43cb9dd2040d0990179460b84ba68810eb/filesystem/lib
+/home/ranita/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/lib
+/home/ranita/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/a9c6503754627a8af6a6a087643eff5d75e405a4/locale/lib
+/home/ranita/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/lib
+/home/ranita/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/lib
+/home/ranita/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/lib
+/home/ranita/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/lib
+/home/ranita/.conan/data/bzip2/1.0.6/conan/stable/package/b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3/bin
+/home/ranita/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/lib
+/home/ranita/.conan/data/boost_system/1.69.0/bincrafters/stable/package/5d3269032fa66fb1348d833701d20ee65a112cbb/system/lib
+/home/ranita/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/lexical_cast/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/math/lib
+/home/ranita/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/lib
+/home/ranita/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/lib
+/home/ranita/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/lib
+/home/ranita/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/072858e3bd28aa59a277a52ddc7f497977092ae1/atomic/lib
+/home/ranita/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/algorithm/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/range/lib
+/home/ranita/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/lib
+/home/ranita/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/185b053592e8a7d1706881609825dba43dd1e903/exception/lib
+/home/ranita/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/lib
+/home/ranita/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/lib
+/home/ranita/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/3c20363a80a75ed29ff1c16fb3a7a7c228d236b3/regex/lib
+/home/ranita/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/lib
+/home/ranita/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/lib
+/home/ranita/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/lib
+/home/ranita/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/lib
+/home/ranita/.conan/data/boost_container/1.69.0/bincrafters/stable/package/2f2af37891b1057b793eb117ac294ba7ddf52a84/container/lib
+/home/ranita/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/lib
+/home/ranita/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/lib
+/home/ranita/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/lib
+/home/ranita/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/lib
+/home/ranita/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/lib
+/home/ranita/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/lib
+/home/ranita/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/lib
+/home/ranita/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/lib
+/home/ranita/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/lib
+/home/ranita/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/lib
+/home/ranita/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/lib
+/home/ranita/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/lib
+/home/ranita/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/lib
+/home/ranita/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/lib
+/home/ranita/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/lib
+/home/ranita/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/lib
+/home/ranita/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/lib
+/home/ranita/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/lib
+/home/ranita/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/lib
+/home/ranita/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/lib
+/home/ranita/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/lib
+/home/ranita/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/lib
+/home/ranita/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/lib
 
 [resdirs]
 
 
 [builddirs]
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/
-/home/angie/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/
-/home/angie/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/30dd52e8692bb0b85559b9992e17730ff6d9fadc/
-/home/angie/.conan/data/boost_date_time/1.69.0/bincrafters/stable/package/8c12457a0845559152b004ab3b7e742f04559f4f/
-/home/angie/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/6745b2c67ece017487d93454786f9082519559e7/
-/home/angie/.conan/data/boost_context/1.69.0/bincrafters/stable/package/e1d6e78cb626c1ecefa505df68faf7584827e62c/
-/home/angie/.conan/data/boost_thread/1.69.0/bincrafters/stable/package/cb054d0b3e1ca595dc66bc2339d40f1f8f04ab31/
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/
-/home/angie/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/e9afef662934d65c0636bef5e7e71a6a280c41f4/
-/home/angie/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_algorithm/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/b243e4da43cf9766b4c3983f063aac1332c8df65/
-/home/angie/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_lexical_cast/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/d1e7302ad8daf99646a1b09c2547bb1f7a0d8c41/
-/home/angie/.conan/data/boost_math/1.69.0/bincrafters/stable/package/d77b0c1f2aa7d75f88552ea84baeb983c2115d09/
-/home/angie/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/bzip2/1.0.6/conan/stable/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/
-/home/angie/.conan/data/zlib/1.2.11/conan/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/
-/home/angie/.conan/data/lzma/5.2.4/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib/pkgconfig
-/home/angie/.conan/data/zstd/1.3.5/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/
-/home/angie/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_system/1.69.0/bincrafters/stable/package/ef8c7c721e8d66670a83b1998d4908e4b3efe4c1/
-/home/angie/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/
-/home/angie/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/16c5dd82e796fdd06758ec61fc0adb3d78106ed4/
-/home/angie/.conan/data/boost_range/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/
-/home/angie/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/d872abd6e8c7159e57c5d2f37f67347592d6c44e/
-/home/angie/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/36dc7ed9419f6b438aeabc9906877627967d7b52/
-/home/angie/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_container/1.69.0/bincrafters/stable/package/30b84cae7d8c19e290a03dd8f645abf7dc51f3ed/
-/home/angie/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-/home/angie/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/
+/home/ranita/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/
+/home/ranita/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/2169d5fa3ebc1b52dc69c38d66b237e2ec90f76c/
+/home/ranita/.conan/data/boost_date_time/1.69.0/bincrafters/stable/package/72b9c3a01148871427f855a7dc9611d3a701eba7/
+/home/ranita/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/d387bd2221c901be07c63764726be9c0ed6ae28a/
+/home/ranita/.conan/data/boost_context/1.69.0/bincrafters/stable/package/2127b5433c7397714fc80a148dcae6416cf4fed4/
+/home/ranita/.conan/data/boost_thread/1.69.0/bincrafters/stable/package/cb054d0b3e1ca595dc66bc2339d40f1f8f04ab31/
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/
+/home/ranita/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/cea124d8e4ab85f4b133e593d26dcf2c196bb060/
+/home/ranita/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_algorithm/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/d1735e43cb9dd2040d0990179460b84ba68810eb/
+/home/ranita/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_lexical_cast/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/a9c6503754627a8af6a6a087643eff5d75e405a4/
+/home/ranita/.conan/data/boost_math/1.69.0/bincrafters/stable/package/ef096be3eb27718bcec960c830bec346b9315282/
+/home/ranita/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/bzip2/1.0.6/conan/stable/package/b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3/
+/home/ranita/.conan/data/zlib/1.2.11/conan/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/
+/home/ranita/.conan/data/lzma/5.2.4/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib/pkgconfig
+/home/ranita/.conan/data/zstd/1.3.5/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/
+/home/ranita/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_system/1.69.0/bincrafters/stable/package/5d3269032fa66fb1348d833701d20ee65a112cbb/
+/home/ranita/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/
+/home/ranita/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/072858e3bd28aa59a277a52ddc7f497977092ae1/
+/home/ranita/.conan/data/boost_range/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/
+/home/ranita/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/185b053592e8a7d1706881609825dba43dd1e903/
+/home/ranita/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/3c20363a80a75ed29ff1c16fb3a7a7c228d236b3/
+/home/ranita/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_container/1.69.0/bincrafters/stable/package/2f2af37891b1057b793eb117ac294ba7ddf52a84/
+/home/ranita/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs]
 opus
@@ -311,11 +311,11 @@ boost_chrono
 boost_filesystem
 boost_locale
 boost_math_tr1
+boost_math_c99
 boost_math_tr1f
 boost_math_c99f
 boost_math_c99l
 boost_math_tr1l
-boost_math_c99
 bz2
 z
 lzma
@@ -353,13 +353,19 @@ BOOST_ALL_NO_LIB=1
 [sysroot]
 
 
+[frameworks]
+
+
+[framework_paths]
+
+
 
 [includedirs_opus]
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include/opus
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include/opus
 
 [libdirs_opus]
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
 
 [bindirs_opus]
 
@@ -368,7 +374,7 @@ BOOST_ALL_NO_LIB=1
 
 
 [builddirs_opus]
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/
 
 [libs_opus]
 opus
@@ -395,15 +401,21 @@ m
 [sysroot_opus]
 
 
+[frameworks_opus]
+
+
+[framework_paths_opus]
+
+
 [rootpath_opus]
-/home/angie/.conan/data/opus/1.3.1/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709
+/home/ranita/.conan/data/opus/1.3.1/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b
 
 
 [includedirs_portaudio]
-/home/angie/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
+/home/ranita/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
 
 [libdirs_portaudio]
-/home/angie/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
+/home/ranita/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
 
 [bindirs_portaudio]
 
@@ -412,7 +424,7 @@ m
 
 
 [builddirs_portaudio]
-/home/angie/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/
+/home/ranita/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/
 
 [libs_portaudio]
 portaudio
@@ -439,24 +451,30 @@ jack asound m pthread
 [sysroot_portaudio]
 
 
+[frameworks_portaudio]
+
+
+[framework_paths_portaudio]
+
+
 [rootpath_portaudio]
-/home/angie/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709
+/home/ranita/.conan/data/portaudio/v190600.20161030/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b
 
 
 [includedirs_boost_asio]
-/home/angie/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/include
+/home/ranita/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/include
 
 [libdirs_boost_asio]
-/home/angie/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/lib
+/home/ranita/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/lib
 
 [bindirs_boost_asio]
-/home/angie/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/lib
+/home/ranita/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/asio/lib
 
 [resdirs_boost_asio]
 
 
 [builddirs_boost_asio]
-/home/angie/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_asio]
 
@@ -482,12 +500,18 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_asio]
 
 
+[frameworks_boost_asio]
+
+
+[framework_paths_boost_asio]
+
+
 [rootpath_boost_asio]
-/home/angie/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_asio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_sqlite_orm]
-/home/angie/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
+/home/ranita/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
 
 [libdirs_sqlite_orm]
 
@@ -499,7 +523,7 @@ BOOST_ALL_NO_LIB=1
 
 
 [builddirs_sqlite_orm]
-/home/angie/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_sqlite_orm]
 
@@ -525,24 +549,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_sqlite_orm]
 
 
+[frameworks_sqlite_orm]
+
+
+[framework_paths_sqlite_orm]
+
+
 [rootpath_sqlite_orm]
-/home/angie/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/sqlite_orm/1.4/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_coroutine]
-/home/angie/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/30dd52e8692bb0b85559b9992e17730ff6d9fadc/coroutine/include
+/home/ranita/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/2169d5fa3ebc1b52dc69c38d66b237e2ec90f76c/coroutine/include
 
 [libdirs_boost_coroutine]
-/home/angie/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/30dd52e8692bb0b85559b9992e17730ff6d9fadc/coroutine/lib
+/home/ranita/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/2169d5fa3ebc1b52dc69c38d66b237e2ec90f76c/coroutine/lib
 
 [bindirs_boost_coroutine]
-/home/angie/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/30dd52e8692bb0b85559b9992e17730ff6d9fadc/coroutine/lib
+/home/ranita/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/2169d5fa3ebc1b52dc69c38d66b237e2ec90f76c/coroutine/lib
 
 [resdirs_boost_coroutine]
 
 
 [builddirs_boost_coroutine]
-/home/angie/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/30dd52e8692bb0b85559b9992e17730ff6d9fadc/
+/home/ranita/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/2169d5fa3ebc1b52dc69c38d66b237e2ec90f76c/
 
 [libs_boost_coroutine]
 boost_coroutine
@@ -568,24 +598,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_coroutine]
 
 
+[frameworks_boost_coroutine]
+
+
+[framework_paths_boost_coroutine]
+
+
 [rootpath_boost_coroutine]
-/home/angie/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/30dd52e8692bb0b85559b9992e17730ff6d9fadc
+/home/ranita/.conan/data/boost_coroutine/1.69.0/bincrafters/stable/package/2169d5fa3ebc1b52dc69c38d66b237e2ec90f76c
 
 
 [includedirs_boost_date_time]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/date_time/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/date_time/include
 
 [libdirs_boost_date_time]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/date_time/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/date_time/lib
 
 [bindirs_boost_date_time]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/date_time/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/date_time/lib
 
 [resdirs_boost_date_time]
 
 
 [builddirs_boost_date_time]
-/home/angie/.conan/data/boost_date_time/1.69.0/bincrafters/stable/package/8c12457a0845559152b004ab3b7e742f04559f4f/
+/home/ranita/.conan/data/boost_date_time/1.69.0/bincrafters/stable/package/72b9c3a01148871427f855a7dc9611d3a701eba7/
 
 [libs_boost_date_time]
 boost_date_time
@@ -611,15 +647,21 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_date_time]
 
 
+[frameworks_boost_date_time]
+
+
+[framework_paths_boost_date_time]
+
+
 [rootpath_boost_date_time]
-/home/angie/.conan/data/boost_date_time/1.69.0/bincrafters/stable/package/8c12457a0845559152b004ab3b7e742f04559f4f
+/home/ranita/.conan/data/boost_date_time/1.69.0/bincrafters/stable/package/72b9c3a01148871427f855a7dc9611d3a701eba7
 
 
 [includedirs_sqlite3]
-/home/angie/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/6745b2c67ece017487d93454786f9082519559e7/include
+/home/ranita/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/d387bd2221c901be07c63764726be9c0ed6ae28a/include
 
 [libdirs_sqlite3]
-/home/angie/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/6745b2c67ece017487d93454786f9082519559e7/lib
+/home/ranita/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/d387bd2221c901be07c63764726be9c0ed6ae28a/lib
 
 [bindirs_sqlite3]
 
@@ -628,7 +670,7 @@ BOOST_ALL_NO_LIB=1
 
 
 [builddirs_sqlite3]
-/home/angie/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/6745b2c67ece017487d93454786f9082519559e7/
+/home/ranita/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/d387bd2221c901be07c63764726be9c0ed6ae28a/
 
 [libs_sqlite3]
 sqlite3
@@ -656,24 +698,30 @@ dl
 [sysroot_sqlite3]
 
 
+[frameworks_sqlite3]
+
+
+[framework_paths_sqlite3]
+
+
 [rootpath_sqlite3]
-/home/angie/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/6745b2c67ece017487d93454786f9082519559e7
+/home/ranita/.conan/data/sqlite3/3.21.0/bincrafters/stable/package/d387bd2221c901be07c63764726be9c0ed6ae28a
 
 
 [includedirs_boost_context]
-/home/angie/.conan/data/boost_context/1.69.0/bincrafters/stable/package/e1d6e78cb626c1ecefa505df68faf7584827e62c/context/include
+/home/ranita/.conan/data/boost_context/1.69.0/bincrafters/stable/package/2127b5433c7397714fc80a148dcae6416cf4fed4/context/include
 
 [libdirs_boost_context]
-/home/angie/.conan/data/boost_context/1.69.0/bincrafters/stable/package/e1d6e78cb626c1ecefa505df68faf7584827e62c/context/lib
+/home/ranita/.conan/data/boost_context/1.69.0/bincrafters/stable/package/2127b5433c7397714fc80a148dcae6416cf4fed4/context/lib
 
 [bindirs_boost_context]
-/home/angie/.conan/data/boost_context/1.69.0/bincrafters/stable/package/e1d6e78cb626c1ecefa505df68faf7584827e62c/context/lib
+/home/ranita/.conan/data/boost_context/1.69.0/bincrafters/stable/package/2127b5433c7397714fc80a148dcae6416cf4fed4/context/lib
 
 [resdirs_boost_context]
 
 
 [builddirs_boost_context]
-/home/angie/.conan/data/boost_context/1.69.0/bincrafters/stable/package/e1d6e78cb626c1ecefa505df68faf7584827e62c/
+/home/ranita/.conan/data/boost_context/1.69.0/bincrafters/stable/package/2127b5433c7397714fc80a148dcae6416cf4fed4/
 
 [libs_boost_context]
 boost_context
@@ -699,24 +747,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_context]
 
 
+[frameworks_boost_context]
+
+
+[framework_paths_boost_context]
+
+
 [rootpath_boost_context]
-/home/angie/.conan/data/boost_context/1.69.0/bincrafters/stable/package/e1d6e78cb626c1ecefa505df68faf7584827e62c
+/home/ranita/.conan/data/boost_context/1.69.0/bincrafters/stable/package/2127b5433c7397714fc80a148dcae6416cf4fed4
 
 
 [includedirs_boost_thread]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/thread/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/thread/include
 
 [libdirs_boost_thread]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/thread/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/thread/lib
 
 [bindirs_boost_thread]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/thread/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/thread/lib
 
 [resdirs_boost_thread]
 
 
 [builddirs_boost_thread]
-/home/angie/.conan/data/boost_thread/1.69.0/bincrafters/stable/package/cb054d0b3e1ca595dc66bc2339d40f1f8f04ab31/
+/home/ranita/.conan/data/boost_thread/1.69.0/bincrafters/stable/package/cb054d0b3e1ca595dc66bc2339d40f1f8f04ab31/
 
 [libs_boost_thread]
 boost_thread
@@ -743,45 +797,51 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_thread]
 
 
+[frameworks_boost_thread]
+
+
+[framework_paths_boost_thread]
+
+
 [rootpath_boost_thread]
-/home/angie/.conan/data/boost_thread/1.69.0/bincrafters/stable/package/cb054d0b3e1ca595dc66bc2339d40f1f8f04ab31
+/home/ranita/.conan/data/boost_thread/1.69.0/bincrafters/stable/package/cb054d0b3e1ca595dc66bc2339d40f1f8f04ab31
 
 
 [includedirs_boost_cycle_group_c]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/date_time/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/dynamic_bitset/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/iostreams/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/multiprecision/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/random/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/serialization/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/spirit/include
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/thread/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/date_time/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/dynamic_bitset/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/iostreams/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/multiprecision/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/random/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/serialization/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/spirit/include
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/thread/include
 
 [libdirs_boost_cycle_group_c]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/date_time/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/dynamic_bitset/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/iostreams/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/multiprecision/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/random/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/serialization/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/spirit/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/thread/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/date_time/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/dynamic_bitset/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/iostreams/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/multiprecision/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/random/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/serialization/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/spirit/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/thread/lib
 
 [bindirs_boost_cycle_group_c]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/date_time/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/dynamic_bitset/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/iostreams/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/multiprecision/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/random/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/serialization/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/spirit/lib
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/thread/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/date_time/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/dynamic_bitset/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/iostreams/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/multiprecision/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/random/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/serialization/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/spirit/lib
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/thread/lib
 
 [resdirs_boost_cycle_group_c]
 
 
 [builddirs_boost_cycle_group_c]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab/
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346/
 
 [libs_boost_cycle_group_c]
 pthread
@@ -811,24 +871,30 @@ BOOST_IOSTREAMS_USE_ZSTD=1
 [sysroot_boost_cycle_group_c]
 
 
+[frameworks_boost_cycle_group_c]
+
+
+[framework_paths_boost_cycle_group_c]
+
+
 [rootpath_boost_cycle_group_c]
-/home/angie/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/82f971f2e05e8a5dcb8a452d7bec7eb7ab9510ab
+/home/ranita/.conan/data/boost_cycle_group_c/1.69.0/bincrafters/stable/package/7a53757874d623bca1876c8f5e76091794a97346
 
 
 [includedirs_boost_chrono]
-/home/angie/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/e9afef662934d65c0636bef5e7e71a6a280c41f4/chrono/include
+/home/ranita/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/cea124d8e4ab85f4b133e593d26dcf2c196bb060/chrono/include
 
 [libdirs_boost_chrono]
-/home/angie/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/e9afef662934d65c0636bef5e7e71a6a280c41f4/chrono/lib
+/home/ranita/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/cea124d8e4ab85f4b133e593d26dcf2c196bb060/chrono/lib
 
 [bindirs_boost_chrono]
-/home/angie/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/e9afef662934d65c0636bef5e7e71a6a280c41f4/chrono/lib
+/home/ranita/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/cea124d8e4ab85f4b133e593d26dcf2c196bb060/chrono/lib
 
 [resdirs_boost_chrono]
 
 
 [builddirs_boost_chrono]
-/home/angie/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/e9afef662934d65c0636bef5e7e71a6a280c41f4/
+/home/ranita/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/cea124d8e4ab85f4b133e593d26dcf2c196bb060/
 
 [libs_boost_chrono]
 boost_chrono
@@ -854,24 +920,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_chrono]
 
 
+[frameworks_boost_chrono]
+
+
+[framework_paths_boost_chrono]
+
+
 [rootpath_boost_chrono]
-/home/angie/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/e9afef662934d65c0636bef5e7e71a6a280c41f4
+/home/ranita/.conan/data/boost_chrono/1.69.0/bincrafters/stable/package/cea124d8e4ab85f4b133e593d26dcf2c196bb060
 
 
 [includedirs_boost_pool]
-/home/angie/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/include
+/home/ranita/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/include
 
 [libdirs_boost_pool]
-/home/angie/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/lib
+/home/ranita/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/lib
 
 [bindirs_boost_pool]
-/home/angie/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/lib
+/home/ranita/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/pool/lib
 
 [resdirs_boost_pool]
 
 
 [builddirs_boost_pool]
-/home/angie/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_pool]
 
@@ -897,24 +969,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_pool]
 
 
+[frameworks_boost_pool]
+
+
+[framework_paths_boost_pool]
+
+
 [rootpath_boost_pool]
-/home/angie/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_pool/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_algorithm]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/algorithm/include
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/algorithm/include
 
 [libdirs_boost_algorithm]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/algorithm/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/algorithm/lib
 
 [bindirs_boost_algorithm]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/algorithm/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/algorithm/lib
 
 [resdirs_boost_algorithm]
 
 
 [builddirs_boost_algorithm]
-/home/angie/.conan/data/boost_algorithm/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_algorithm/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_algorithm]
 
@@ -940,24 +1018,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_algorithm]
 
 
+[frameworks_boost_algorithm]
+
+
+[framework_paths_boost_algorithm]
+
+
 [rootpath_boost_algorithm]
-/home/angie/.conan/data/boost_algorithm/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_algorithm/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_endian]
-/home/angie/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/include
+/home/ranita/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/include
 
 [libdirs_boost_endian]
-/home/angie/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/lib
+/home/ranita/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/lib
 
 [bindirs_boost_endian]
-/home/angie/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/lib
+/home/ranita/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/endian/lib
 
 [resdirs_boost_endian]
 
 
 [builddirs_boost_endian]
-/home/angie/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_endian]
 
@@ -983,24 +1067,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_endian]
 
 
+[frameworks_boost_endian]
+
+
+[framework_paths_boost_endian]
+
+
 [rootpath_boost_endian]
-/home/angie/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_endian/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_filesystem]
-/home/angie/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/b243e4da43cf9766b4c3983f063aac1332c8df65/filesystem/include
+/home/ranita/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/d1735e43cb9dd2040d0990179460b84ba68810eb/filesystem/include
 
 [libdirs_boost_filesystem]
-/home/angie/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/b243e4da43cf9766b4c3983f063aac1332c8df65/filesystem/lib
+/home/ranita/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/d1735e43cb9dd2040d0990179460b84ba68810eb/filesystem/lib
 
 [bindirs_boost_filesystem]
-/home/angie/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/b243e4da43cf9766b4c3983f063aac1332c8df65/filesystem/lib
+/home/ranita/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/d1735e43cb9dd2040d0990179460b84ba68810eb/filesystem/lib
 
 [resdirs_boost_filesystem]
 
 
 [builddirs_boost_filesystem]
-/home/angie/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/b243e4da43cf9766b4c3983f063aac1332c8df65/
+/home/ranita/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/d1735e43cb9dd2040d0990179460b84ba68810eb/
 
 [libs_boost_filesystem]
 boost_filesystem
@@ -1026,24 +1116,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_filesystem]
 
 
+[frameworks_boost_filesystem]
+
+
+[framework_paths_boost_filesystem]
+
+
 [rootpath_boost_filesystem]
-/home/angie/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/b243e4da43cf9766b4c3983f063aac1332c8df65
+/home/ranita/.conan/data/boost_filesystem/1.69.0/bincrafters/stable/package/d1735e43cb9dd2040d0990179460b84ba68810eb
 
 
 [includedirs_boost_foreach]
-/home/angie/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/include
+/home/ranita/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/include
 
 [libdirs_boost_foreach]
-/home/angie/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/lib
+/home/ranita/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/lib
 
 [bindirs_boost_foreach]
-/home/angie/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/lib
+/home/ranita/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/foreach/lib
 
 [resdirs_boost_foreach]
 
 
 [builddirs_boost_foreach]
-/home/angie/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_foreach]
 
@@ -1069,24 +1165,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_foreach]
 
 
+[frameworks_boost_foreach]
+
+
+[framework_paths_boost_foreach]
+
+
 [rootpath_boost_foreach]
-/home/angie/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_foreach/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_lexical_cast]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/lexical_cast/include
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/lexical_cast/include
 
 [libdirs_boost_lexical_cast]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/lexical_cast/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/lexical_cast/lib
 
 [bindirs_boost_lexical_cast]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/lexical_cast/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/lexical_cast/lib
 
 [resdirs_boost_lexical_cast]
 
 
 [builddirs_boost_lexical_cast]
-/home/angie/.conan/data/boost_lexical_cast/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_lexical_cast/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_lexical_cast]
 
@@ -1112,24 +1214,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_lexical_cast]
 
 
+[frameworks_boost_lexical_cast]
+
+
+[framework_paths_boost_lexical_cast]
+
+
 [rootpath_boost_lexical_cast]
-/home/angie/.conan/data/boost_lexical_cast/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_lexical_cast/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_locale]
-/home/angie/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/d1e7302ad8daf99646a1b09c2547bb1f7a0d8c41/locale/include
+/home/ranita/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/a9c6503754627a8af6a6a087643eff5d75e405a4/locale/include
 
 [libdirs_boost_locale]
-/home/angie/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/d1e7302ad8daf99646a1b09c2547bb1f7a0d8c41/locale/lib
+/home/ranita/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/a9c6503754627a8af6a6a087643eff5d75e405a4/locale/lib
 
 [bindirs_boost_locale]
-/home/angie/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/d1e7302ad8daf99646a1b09c2547bb1f7a0d8c41/locale/lib
+/home/ranita/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/a9c6503754627a8af6a6a087643eff5d75e405a4/locale/lib
 
 [resdirs_boost_locale]
 
 
 [builddirs_boost_locale]
-/home/angie/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/d1e7302ad8daf99646a1b09c2547bb1f7a0d8c41/
+/home/ranita/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/a9c6503754627a8af6a6a087643eff5d75e405a4/
 
 [libs_boost_locale]
 boost_locale
@@ -1155,32 +1263,38 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_locale]
 
 
+[frameworks_boost_locale]
+
+
+[framework_paths_boost_locale]
+
+
 [rootpath_boost_locale]
-/home/angie/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/d1e7302ad8daf99646a1b09c2547bb1f7a0d8c41
+/home/ranita/.conan/data/boost_locale/1.69.0/bincrafters/stable/package/a9c6503754627a8af6a6a087643eff5d75e405a4
 
 
 [includedirs_boost_math]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/math/include
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/math/include
 
 [libdirs_boost_math]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/math/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/math/lib
 
 [bindirs_boost_math]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/math/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/math/lib
 
 [resdirs_boost_math]
 
 
 [builddirs_boost_math]
-/home/angie/.conan/data/boost_math/1.69.0/bincrafters/stable/package/d77b0c1f2aa7d75f88552ea84baeb983c2115d09/
+/home/ranita/.conan/data/boost_math/1.69.0/bincrafters/stable/package/ef096be3eb27718bcec960c830bec346b9315282/
 
 [libs_boost_math]
 boost_math_tr1
+boost_math_c99
 boost_math_tr1f
 boost_math_c99f
 boost_math_c99l
 boost_math_tr1l
-boost_math_c99
 
 [defines_boost_math]
 BOOST_ALL_NO_LIB=1
@@ -1203,24 +1317,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_math]
 
 
+[frameworks_boost_math]
+
+
+[framework_paths_boost_math]
+
+
 [rootpath_boost_math]
-/home/angie/.conan/data/boost_math/1.69.0/bincrafters/stable/package/d77b0c1f2aa7d75f88552ea84baeb983c2115d09
+/home/ranita/.conan/data/boost_math/1.69.0/bincrafters/stable/package/ef096be3eb27718bcec960c830bec346b9315282
 
 
 [includedirs_boost_phoenix]
-/home/angie/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/include
+/home/ranita/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/include
 
 [libdirs_boost_phoenix]
-/home/angie/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/lib
+/home/ranita/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/lib
 
 [bindirs_boost_phoenix]
-/home/angie/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/lib
+/home/ranita/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/phoenix/lib
 
 [resdirs_boost_phoenix]
 
 
 [builddirs_boost_phoenix]
-/home/angie/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_phoenix]
 
@@ -1246,24 +1366,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_phoenix]
 
 
+[frameworks_boost_phoenix]
+
+
+[framework_paths_boost_phoenix]
+
+
 [rootpath_boost_phoenix]
-/home/angie/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_phoenix/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_tokenizer]
-/home/angie/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/include
+/home/ranita/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/include
 
 [libdirs_boost_tokenizer]
-/home/angie/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/lib
+/home/ranita/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/lib
 
 [bindirs_boost_tokenizer]
-/home/angie/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/lib
+/home/ranita/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tokenizer/lib
 
 [resdirs_boost_tokenizer]
 
 
 [builddirs_boost_tokenizer]
-/home/angie/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_tokenizer]
 
@@ -1289,24 +1415,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_tokenizer]
 
 
+[frameworks_boost_tokenizer]
+
+
+[framework_paths_boost_tokenizer]
+
+
 [rootpath_boost_tokenizer]
-/home/angie/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_tokenizer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_tti]
-/home/angie/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/include
+/home/ranita/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/include
 
 [libdirs_boost_tti]
-/home/angie/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/lib
+/home/ranita/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/lib
 
 [bindirs_boost_tti]
-/home/angie/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/lib
+/home/ranita/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tti/lib
 
 [resdirs_boost_tti]
 
 
 [builddirs_boost_tti]
-/home/angie/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_tti]
 
@@ -1332,24 +1464,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_tti]
 
 
+[frameworks_boost_tti]
+
+
+[framework_paths_boost_tti]
+
+
 [rootpath_boost_tti]
-/home/angie/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_tti/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_variant]
-/home/angie/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/include
+/home/ranita/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/include
 
 [libdirs_boost_variant]
-/home/angie/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/lib
+/home/ranita/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/lib
 
 [bindirs_boost_variant]
-/home/angie/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/lib
+/home/ranita/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/variant/lib
 
 [resdirs_boost_variant]
 
 
 [builddirs_boost_variant]
-/home/angie/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_variant]
 
@@ -1375,24 +1513,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_variant]
 
 
+[frameworks_boost_variant]
+
+
+[framework_paths_boost_variant]
+
+
 [rootpath_boost_variant]
-/home/angie/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_variant/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_bzip2]
-/home/angie/.conan/data/bzip2/1.0.6/conan/stable/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/include
+/home/ranita/.conan/data/bzip2/1.0.6/conan/stable/package/b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3/include
 
 [libdirs_bzip2]
-/home/angie/.conan/data/bzip2/1.0.6/conan/stable/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/lib
+/home/ranita/.conan/data/bzip2/1.0.6/conan/stable/package/b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3/lib
 
 [bindirs_bzip2]
-/home/angie/.conan/data/bzip2/1.0.6/conan/stable/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/bin
+/home/ranita/.conan/data/bzip2/1.0.6/conan/stable/package/b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3/bin
 
 [resdirs_bzip2]
 
 
 [builddirs_bzip2]
-/home/angie/.conan/data/bzip2/1.0.6/conan/stable/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/
+/home/ranita/.conan/data/bzip2/1.0.6/conan/stable/package/b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3/
 
 [libs_bzip2]
 bz2
@@ -1418,15 +1562,21 @@ bz2
 [sysroot_bzip2]
 
 
+[frameworks_bzip2]
+
+
+[framework_paths_bzip2]
+
+
 [rootpath_bzip2]
-/home/angie/.conan/data/bzip2/1.0.6/conan/stable/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0
+/home/ranita/.conan/data/bzip2/1.0.6/conan/stable/package/b27e2b40bcb70be2e7d6f0e0c6e43e35c530f8d3
 
 
 [includedirs_zlib]
-/home/angie/.conan/data/zlib/1.2.11/conan/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
+/home/ranita/.conan/data/zlib/1.2.11/conan/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
 
 [libdirs_zlib]
-/home/angie/.conan/data/zlib/1.2.11/conan/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
+/home/ranita/.conan/data/zlib/1.2.11/conan/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
 
 [bindirs_zlib]
 
@@ -1435,7 +1585,7 @@ bz2
 
 
 [builddirs_zlib]
-/home/angie/.conan/data/zlib/1.2.11/conan/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/
+/home/ranita/.conan/data/zlib/1.2.11/conan/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/
 
 [libs_zlib]
 z
@@ -1461,15 +1611,21 @@ z
 [sysroot_zlib]
 
 
+[frameworks_zlib]
+
+
+[framework_paths_zlib]
+
+
 [rootpath_zlib]
-/home/angie/.conan/data/zlib/1.2.11/conan/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709
+/home/ranita/.conan/data/zlib/1.2.11/conan/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b
 
 
 [includedirs_lzma]
-/home/angie/.conan/data/lzma/5.2.4/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
+/home/ranita/.conan/data/lzma/5.2.4/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
 
 [libdirs_lzma]
-/home/angie/.conan/data/lzma/5.2.4/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
+/home/ranita/.conan/data/lzma/5.2.4/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
 
 [bindirs_lzma]
 
@@ -1478,7 +1634,7 @@ z
 
 
 [builddirs_lzma]
-/home/angie/.conan/data/lzma/5.2.4/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib/pkgconfig
+/home/ranita/.conan/data/lzma/5.2.4/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib/pkgconfig
 
 [libs_lzma]
 lzma
@@ -1504,15 +1660,21 @@ LZMA_API_STATIC
 [sysroot_lzma]
 
 
+[frameworks_lzma]
+
+
+[framework_paths_lzma]
+
+
 [rootpath_lzma]
-/home/angie/.conan/data/lzma/5.2.4/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709
+/home/ranita/.conan/data/lzma/5.2.4/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b
 
 
 [includedirs_zstd]
-/home/angie/.conan/data/zstd/1.3.5/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include
+/home/ranita/.conan/data/zstd/1.3.5/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/include
 
 [libdirs_zstd]
-/home/angie/.conan/data/zstd/1.3.5/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib
+/home/ranita/.conan/data/zstd/1.3.5/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/lib
 
 [bindirs_zstd]
 
@@ -1521,7 +1683,7 @@ LZMA_API_STATIC
 
 
 [builddirs_zstd]
-/home/angie/.conan/data/zstd/1.3.5/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709/
+/home/ranita/.conan/data/zstd/1.3.5/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b/
 
 [libs_zstd]
 zstd
@@ -1548,24 +1710,30 @@ pthread
 [sysroot_zstd]
 
 
+[frameworks_zstd]
+
+
+[framework_paths_zstd]
+
+
 [rootpath_zstd]
-/home/angie/.conan/data/zstd/1.3.5/bincrafters/stable/package/6af9cc7cb931c5ad942174fd7838eb655717c709
+/home/ranita/.conan/data/zstd/1.3.5/bincrafters/stable/package/d50a0d523d98c15bb147b18fa7d203887c38be8b
 
 
 [includedirs_boost_ratio]
-/home/angie/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/include
+/home/ranita/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/include
 
 [libdirs_boost_ratio]
-/home/angie/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/lib
+/home/ranita/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/lib
 
 [bindirs_boost_ratio]
-/home/angie/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/lib
+/home/ranita/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/ratio/lib
 
 [resdirs_boost_ratio]
 
 
 [builddirs_boost_ratio]
-/home/angie/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_ratio]
 
@@ -1591,24 +1759,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_ratio]
 
 
+[frameworks_boost_ratio]
+
+
+[framework_paths_boost_ratio]
+
+
 [rootpath_boost_ratio]
-/home/angie/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_ratio/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_system]
-/home/angie/.conan/data/boost_system/1.69.0/bincrafters/stable/package/ef8c7c721e8d66670a83b1998d4908e4b3efe4c1/system/include
+/home/ranita/.conan/data/boost_system/1.69.0/bincrafters/stable/package/5d3269032fa66fb1348d833701d20ee65a112cbb/system/include
 
 [libdirs_boost_system]
-/home/angie/.conan/data/boost_system/1.69.0/bincrafters/stable/package/ef8c7c721e8d66670a83b1998d4908e4b3efe4c1/system/lib
+/home/ranita/.conan/data/boost_system/1.69.0/bincrafters/stable/package/5d3269032fa66fb1348d833701d20ee65a112cbb/system/lib
 
 [bindirs_boost_system]
-/home/angie/.conan/data/boost_system/1.69.0/bincrafters/stable/package/ef8c7c721e8d66670a83b1998d4908e4b3efe4c1/system/lib
+/home/ranita/.conan/data/boost_system/1.69.0/bincrafters/stable/package/5d3269032fa66fb1348d833701d20ee65a112cbb/system/lib
 
 [resdirs_boost_system]
 
 
 [builddirs_boost_system]
-/home/angie/.conan/data/boost_system/1.69.0/bincrafters/stable/package/ef8c7c721e8d66670a83b1998d4908e4b3efe4c1/
+/home/ranita/.conan/data/boost_system/1.69.0/bincrafters/stable/package/5d3269032fa66fb1348d833701d20ee65a112cbb/
 
 [libs_boost_system]
 boost_system
@@ -1634,24 +1808,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_system]
 
 
+[frameworks_boost_system]
+
+
+[framework_paths_boost_system]
+
+
 [rootpath_boost_system]
-/home/angie/.conan/data/boost_system/1.69.0/bincrafters/stable/package/ef8c7c721e8d66670a83b1998d4908e4b3efe4c1
+/home/ranita/.conan/data/boost_system/1.69.0/bincrafters/stable/package/5d3269032fa66fb1348d833701d20ee65a112cbb
 
 
 [includedirs_boost_io]
-/home/angie/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/include
+/home/ranita/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/include
 
 [libdirs_boost_io]
-/home/angie/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/lib
+/home/ranita/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/lib
 
 [bindirs_boost_io]
-/home/angie/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/lib
+/home/ranita/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/io/lib
 
 [resdirs_boost_io]
 
 
 [builddirs_boost_io]
-/home/angie/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_io]
 
@@ -1677,27 +1857,33 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_io]
 
 
+[frameworks_boost_io]
+
+
+[framework_paths_boost_io]
+
+
 [rootpath_boost_io]
-/home/angie/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_io/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_cycle_group_b]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/lexical_cast/include
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/math/include
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/lexical_cast/include
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/math/include
 
 [libdirs_boost_cycle_group_b]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/lexical_cast/lib
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/math/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/lexical_cast/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/math/lib
 
 [bindirs_boost_cycle_group_b]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/lexical_cast/lib
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/math/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/lexical_cast/lib
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/math/lib
 
 [resdirs_boost_cycle_group_b]
 
 
 [builddirs_boost_cycle_group_b]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee/
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87/
 
 [libs_boost_cycle_group_b]
 
@@ -1723,24 +1909,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_cycle_group_b]
 
 
+[frameworks_boost_cycle_group_b]
+
+
+[framework_paths_boost_cycle_group_b]
+
+
 [rootpath_boost_cycle_group_b]
-/home/angie/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/4ddb4227851363c83740b19e73978e0967b5e5ee
+/home/ranita/.conan/data/boost_cycle_group_b/1.69.0/bincrafters/stable/package/7c5c4eaab272a16b9df8ec85a8bf399ea988cb87
 
 
 [includedirs_boost_proto]
-/home/angie/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/include
+/home/ranita/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/include
 
 [libdirs_boost_proto]
-/home/angie/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/lib
+/home/ranita/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/lib
 
 [bindirs_boost_proto]
-/home/angie/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/lib
+/home/ranita/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/proto/lib
 
 [resdirs_boost_proto]
 
 
 [builddirs_boost_proto]
-/home/angie/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_proto]
 
@@ -1766,24 +1958,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_proto]
 
 
+[frameworks_boost_proto]
+
+
+[framework_paths_boost_proto]
+
+
 [rootpath_boost_proto]
-/home/angie/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_proto/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_rational]
-/home/angie/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/include
+/home/ranita/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/include
 
 [libdirs_boost_rational]
-/home/angie/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/lib
+/home/ranita/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/lib
 
 [bindirs_boost_rational]
-/home/angie/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/lib
+/home/ranita/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/rational/lib
 
 [resdirs_boost_rational]
 
 
 [builddirs_boost_rational]
-/home/angie/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_rational]
 
@@ -1809,24 +2007,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_rational]
 
 
+[frameworks_boost_rational]
+
+
+[framework_paths_boost_rational]
+
+
 [rootpath_boost_rational]
-/home/angie/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_rational/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_winapi]
-/home/angie/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/include
+/home/ranita/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/include
 
 [libdirs_boost_winapi]
-/home/angie/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/lib
+/home/ranita/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/lib
 
 [bindirs_boost_winapi]
-/home/angie/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/lib
+/home/ranita/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/winapi/lib
 
 [resdirs_boost_winapi]
 
 
 [builddirs_boost_winapi]
-/home/angie/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_winapi]
 
@@ -1852,24 +2056,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_winapi]
 
 
+[frameworks_boost_winapi]
+
+
+[framework_paths_boost_winapi]
+
+
 [rootpath_boost_winapi]
-/home/angie/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_winapi/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_atomic]
-/home/angie/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/16c5dd82e796fdd06758ec61fc0adb3d78106ed4/atomic/include
+/home/ranita/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/072858e3bd28aa59a277a52ddc7f497977092ae1/atomic/include
 
 [libdirs_boost_atomic]
-/home/angie/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/16c5dd82e796fdd06758ec61fc0adb3d78106ed4/atomic/lib
+/home/ranita/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/072858e3bd28aa59a277a52ddc7f497977092ae1/atomic/lib
 
 [bindirs_boost_atomic]
-/home/angie/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/16c5dd82e796fdd06758ec61fc0adb3d78106ed4/atomic/lib
+/home/ranita/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/072858e3bd28aa59a277a52ddc7f497977092ae1/atomic/lib
 
 [resdirs_boost_atomic]
 
 
 [builddirs_boost_atomic]
-/home/angie/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/16c5dd82e796fdd06758ec61fc0adb3d78106ed4/
+/home/ranita/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/072858e3bd28aa59a277a52ddc7f497977092ae1/
 
 [libs_boost_atomic]
 boost_atomic
@@ -1895,24 +2105,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_atomic]
 
 
+[frameworks_boost_atomic]
+
+
+[framework_paths_boost_atomic]
+
+
 [rootpath_boost_atomic]
-/home/angie/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/16c5dd82e796fdd06758ec61fc0adb3d78106ed4
+/home/ranita/.conan/data/boost_atomic/1.69.0/bincrafters/stable/package/072858e3bd28aa59a277a52ddc7f497977092ae1
 
 
 [includedirs_boost_range]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/range/include
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/range/include
 
 [libdirs_boost_range]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/range/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/range/lib
 
 [bindirs_boost_range]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/range/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/range/lib
 
 [resdirs_boost_range]
 
 
 [builddirs_boost_range]
-/home/angie/.conan/data/boost_range/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_range/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_range]
 
@@ -1938,24 +2154,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_range]
 
 
+[frameworks_boost_range]
+
+
+[framework_paths_boost_range]
+
+
 [rootpath_boost_range]
-/home/angie/.conan/data/boost_range/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_range/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_lambda]
-/home/angie/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/include
+/home/ranita/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/include
 
 [libdirs_boost_lambda]
-/home/angie/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/lib
+/home/ranita/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/lib
 
 [bindirs_boost_lambda]
-/home/angie/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/lib
+/home/ranita/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lambda/lib
 
 [resdirs_boost_lambda]
 
 
 [builddirs_boost_lambda]
-/home/angie/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_lambda]
 
@@ -1981,27 +2203,33 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_lambda]
 
 
+[frameworks_boost_lambda]
+
+
+[framework_paths_boost_lambda]
+
+
 [rootpath_boost_lambda]
-/home/angie/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_lambda/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_cycle_group_a]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/algorithm/include
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/range/include
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/algorithm/include
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/range/include
 
 [libdirs_boost_cycle_group_a]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/algorithm/lib
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/range/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/algorithm/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/range/lib
 
 [bindirs_boost_cycle_group_a]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/algorithm/lib
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/range/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/algorithm/lib
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/range/lib
 
 [resdirs_boost_cycle_group_a]
 
 
 [builddirs_boost_cycle_group_a]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580/
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506/
 
 [libs_boost_cycle_group_a]
 
@@ -2027,24 +2255,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_cycle_group_a]
 
 
+[frameworks_boost_cycle_group_a]
+
+
+[framework_paths_boost_cycle_group_a]
+
+
 [rootpath_boost_cycle_group_a]
-/home/angie/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/dd5f37f55f2080ae13c0ff7fbef31dd93f13a580
+/home/ranita/.conan/data/boost_cycle_group_a/1.69.0/bincrafters/stable/package/43043bb774226ca3e408847bfb9dc93998bdc506
 
 
 [includedirs_boost_array]
-/home/angie/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/include
+/home/ranita/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/include
 
 [libdirs_boost_array]
-/home/angie/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/lib
+/home/ranita/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/lib
 
 [bindirs_boost_array]
-/home/angie/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/lib
+/home/ranita/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/array/lib
 
 [resdirs_boost_array]
 
 
 [builddirs_boost_array]
-/home/angie/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_array]
 
@@ -2070,24 +2304,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_array]
 
 
+[frameworks_boost_array]
+
+
+[framework_paths_boost_array]
+
+
 [rootpath_boost_array]
-/home/angie/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_array/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_exception]
-/home/angie/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/d872abd6e8c7159e57c5d2f37f67347592d6c44e/exception/include
+/home/ranita/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/185b053592e8a7d1706881609825dba43dd1e903/exception/include
 
 [libdirs_boost_exception]
-/home/angie/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/d872abd6e8c7159e57c5d2f37f67347592d6c44e/exception/lib
+/home/ranita/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/185b053592e8a7d1706881609825dba43dd1e903/exception/lib
 
 [bindirs_boost_exception]
-/home/angie/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/d872abd6e8c7159e57c5d2f37f67347592d6c44e/exception/lib
+/home/ranita/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/185b053592e8a7d1706881609825dba43dd1e903/exception/lib
 
 [resdirs_boost_exception]
 
 
 [builddirs_boost_exception]
-/home/angie/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/d872abd6e8c7159e57c5d2f37f67347592d6c44e/
+/home/ranita/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/185b053592e8a7d1706881609825dba43dd1e903/
 
 [libs_boost_exception]
 boost_exception
@@ -2113,24 +2353,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_exception]
 
 
+[frameworks_boost_exception]
+
+
+[framework_paths_boost_exception]
+
+
 [rootpath_boost_exception]
-/home/angie/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/d872abd6e8c7159e57c5d2f37f67347592d6c44e
+/home/ranita/.conan/data/boost_exception/1.69.0/bincrafters/stable/package/185b053592e8a7d1706881609825dba43dd1e903
 
 
 [includedirs_boost_function]
-/home/angie/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/include
+/home/ranita/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/include
 
 [libdirs_boost_function]
-/home/angie/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/lib
+/home/ranita/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/lib
 
 [bindirs_boost_function]
-/home/angie/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/lib
+/home/ranita/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function/lib
 
 [resdirs_boost_function]
 
 
 [builddirs_boost_function]
-/home/angie/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_function]
 
@@ -2156,24 +2402,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_function]
 
 
+[frameworks_boost_function]
+
+
+[framework_paths_boost_function]
+
+
 [rootpath_boost_function]
-/home/angie/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_function/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_numeric_conversion]
-/home/angie/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/include
+/home/ranita/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/include
 
 [libdirs_boost_numeric_conversion]
-/home/angie/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/lib
+/home/ranita/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/lib
 
 [bindirs_boost_numeric_conversion]
-/home/angie/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/lib
+/home/ranita/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/numeric_conversion/lib
 
 [resdirs_boost_numeric_conversion]
 
 
 [builddirs_boost_numeric_conversion]
-/home/angie/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_numeric_conversion]
 
@@ -2199,24 +2451,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_numeric_conversion]
 
 
+[frameworks_boost_numeric_conversion]
+
+
+[framework_paths_boost_numeric_conversion]
+
+
 [rootpath_boost_numeric_conversion]
-/home/angie/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_numeric_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_regex]
-/home/angie/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/36dc7ed9419f6b438aeabc9906877627967d7b52/regex/include
+/home/ranita/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/3c20363a80a75ed29ff1c16fb3a7a7c228d236b3/regex/include
 
 [libdirs_boost_regex]
-/home/angie/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/36dc7ed9419f6b438aeabc9906877627967d7b52/regex/lib
+/home/ranita/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/3c20363a80a75ed29ff1c16fb3a7a7c228d236b3/regex/lib
 
 [bindirs_boost_regex]
-/home/angie/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/36dc7ed9419f6b438aeabc9906877627967d7b52/regex/lib
+/home/ranita/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/3c20363a80a75ed29ff1c16fb3a7a7c228d236b3/regex/lib
 
 [resdirs_boost_regex]
 
 
 [builddirs_boost_regex]
-/home/angie/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/36dc7ed9419f6b438aeabc9906877627967d7b52/
+/home/ranita/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/3c20363a80a75ed29ff1c16fb3a7a7c228d236b3/
 
 [libs_boost_regex]
 boost_regex
@@ -2242,24 +2500,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_regex]
 
 
+[frameworks_boost_regex]
+
+
+[framework_paths_boost_regex]
+
+
 [rootpath_boost_regex]
-/home/angie/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/36dc7ed9419f6b438aeabc9906877627967d7b52
+/home/ranita/.conan/data/boost_regex/1.69.0/bincrafters/stable/package/3c20363a80a75ed29ff1c16fb3a7a7c228d236b3
 
 
 [includedirs_boost_unordered]
-/home/angie/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/include
+/home/ranita/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/include
 
 [libdirs_boost_unordered]
-/home/angie/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/lib
+/home/ranita/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/lib
 
 [bindirs_boost_unordered]
-/home/angie/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/lib
+/home/ranita/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/unordered/lib
 
 [resdirs_boost_unordered]
 
 
 [builddirs_boost_unordered]
-/home/angie/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_unordered]
 
@@ -2285,24 +2549,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_unordered]
 
 
+[frameworks_boost_unordered]
+
+
+[framework_paths_boost_unordered]
+
+
 [rootpath_boost_unordered]
-/home/angie/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_unordered/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_bind]
-/home/angie/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/include
+/home/ranita/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/include
 
 [libdirs_boost_bind]
-/home/angie/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/lib
+/home/ranita/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/lib
 
 [bindirs_boost_bind]
-/home/angie/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/lib
+/home/ranita/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/bind/lib
 
 [resdirs_boost_bind]
 
 
 [builddirs_boost_bind]
-/home/angie/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_bind]
 
@@ -2328,24 +2598,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_bind]
 
 
+[frameworks_boost_bind]
+
+
+[framework_paths_boost_bind]
+
+
 [rootpath_boost_bind]
-/home/angie/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_bind/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_type_index]
-/home/angie/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/include
+/home/ranita/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/include
 
 [libdirs_boost_type_index]
-/home/angie/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/lib
+/home/ranita/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/lib
 
 [bindirs_boost_type_index]
-/home/angie/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/lib
+/home/ranita/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_index/lib
 
 [resdirs_boost_type_index]
 
 
 [builddirs_boost_type_index]
-/home/angie/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_type_index]
 
@@ -2371,24 +2647,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_type_index]
 
 
+[frameworks_boost_type_index]
+
+
+[framework_paths_boost_type_index]
+
+
 [rootpath_boost_type_index]
-/home/angie/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_type_index/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_iterator]
-/home/angie/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/include
+/home/ranita/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/include
 
 [libdirs_boost_iterator]
-/home/angie/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/lib
+/home/ranita/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/lib
 
 [bindirs_boost_iterator]
-/home/angie/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/lib
+/home/ranita/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/iterator/lib
 
 [resdirs_boost_iterator]
 
 
 [builddirs_boost_iterator]
-/home/angie/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_iterator]
 
@@ -2414,24 +2696,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_iterator]
 
 
+[frameworks_boost_iterator]
+
+
+[framework_paths_boost_iterator]
+
+
 [rootpath_boost_iterator]
-/home/angie/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_iterator/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_container]
-/home/angie/.conan/data/boost_container/1.69.0/bincrafters/stable/package/30b84cae7d8c19e290a03dd8f645abf7dc51f3ed/container/include
+/home/ranita/.conan/data/boost_container/1.69.0/bincrafters/stable/package/2f2af37891b1057b793eb117ac294ba7ddf52a84/container/include
 
 [libdirs_boost_container]
-/home/angie/.conan/data/boost_container/1.69.0/bincrafters/stable/package/30b84cae7d8c19e290a03dd8f645abf7dc51f3ed/container/lib
+/home/ranita/.conan/data/boost_container/1.69.0/bincrafters/stable/package/2f2af37891b1057b793eb117ac294ba7ddf52a84/container/lib
 
 [bindirs_boost_container]
-/home/angie/.conan/data/boost_container/1.69.0/bincrafters/stable/package/30b84cae7d8c19e290a03dd8f645abf7dc51f3ed/container/lib
+/home/ranita/.conan/data/boost_container/1.69.0/bincrafters/stable/package/2f2af37891b1057b793eb117ac294ba7ddf52a84/container/lib
 
 [resdirs_boost_container]
 
 
 [builddirs_boost_container]
-/home/angie/.conan/data/boost_container/1.69.0/bincrafters/stable/package/30b84cae7d8c19e290a03dd8f645abf7dc51f3ed/
+/home/ranita/.conan/data/boost_container/1.69.0/bincrafters/stable/package/2f2af37891b1057b793eb117ac294ba7ddf52a84/
 
 [libs_boost_container]
 boost_container
@@ -2457,24 +2745,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_container]
 
 
+[frameworks_boost_container]
+
+
+[framework_paths_boost_container]
+
+
 [rootpath_boost_container]
-/home/angie/.conan/data/boost_container/1.69.0/bincrafters/stable/package/30b84cae7d8c19e290a03dd8f645abf7dc51f3ed
+/home/ranita/.conan/data/boost_container/1.69.0/bincrafters/stable/package/2f2af37891b1057b793eb117ac294ba7ddf52a84
 
 
 [includedirs_boost_concept_check]
-/home/angie/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/include
+/home/ranita/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/include
 
 [libdirs_boost_concept_check]
-/home/angie/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/lib
+/home/ranita/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/lib
 
 [bindirs_boost_concept_check]
-/home/angie/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/lib
+/home/ranita/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/concept_check/lib
 
 [resdirs_boost_concept_check]
 
 
 [builddirs_boost_concept_check]
-/home/angie/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_concept_check]
 
@@ -2500,24 +2794,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_concept_check]
 
 
+[frameworks_boost_concept_check]
+
+
+[framework_paths_boost_concept_check]
+
+
 [rootpath_boost_concept_check]
-/home/angie/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_concept_check/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_conversion]
-/home/angie/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/include
+/home/ranita/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/include
 
 [libdirs_boost_conversion]
-/home/angie/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/lib
+/home/ranita/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/lib
 
 [bindirs_boost_conversion]
-/home/angie/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/lib
+/home/ranita/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/conversion/lib
 
 [resdirs_boost_conversion]
 
 
 [builddirs_boost_conversion]
-/home/angie/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_conversion]
 
@@ -2543,24 +2843,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_conversion]
 
 
+[frameworks_boost_conversion]
+
+
+[framework_paths_boost_conversion]
+
+
 [rootpath_boost_conversion]
-/home/angie/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_conversion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_fusion]
-/home/angie/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/include
+/home/ranita/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/include
 
 [libdirs_boost_fusion]
-/home/angie/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/lib
+/home/ranita/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/lib
 
 [bindirs_boost_fusion]
-/home/angie/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/lib
+/home/ranita/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/fusion/lib
 
 [resdirs_boost_fusion]
 
 
 [builddirs_boost_fusion]
-/home/angie/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_fusion]
 
@@ -2586,24 +2892,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_fusion]
 
 
+[frameworks_boost_fusion]
+
+
+[framework_paths_boost_fusion]
+
+
 [rootpath_boost_fusion]
-/home/angie/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_fusion/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_optional]
-/home/angie/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/include
+/home/ranita/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/include
 
 [libdirs_boost_optional]
-/home/angie/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/lib
+/home/ranita/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/lib
 
 [bindirs_boost_optional]
-/home/angie/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/lib
+/home/ranita/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/optional/lib
 
 [resdirs_boost_optional]
 
 
 [builddirs_boost_optional]
-/home/angie/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_optional]
 
@@ -2629,24 +2941,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_optional]
 
 
+[frameworks_boost_optional]
+
+
+[framework_paths_boost_optional]
+
+
 [rootpath_boost_optional]
-/home/angie/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_optional/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_intrusive]
-/home/angie/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/include
+/home/ranita/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/include
 
 [libdirs_boost_intrusive]
-/home/angie/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/lib
+/home/ranita/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/lib
 
 [bindirs_boost_intrusive]
-/home/angie/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/lib
+/home/ranita/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/intrusive/lib
 
 [resdirs_boost_intrusive]
 
 
 [builddirs_boost_intrusive]
-/home/angie/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_intrusive]
 
@@ -2672,24 +2990,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_intrusive]
 
 
+[frameworks_boost_intrusive]
+
+
+[framework_paths_boost_intrusive]
+
+
 [rootpath_boost_intrusive]
-/home/angie/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_intrusive/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_typeof]
-/home/angie/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/include
+/home/ranita/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/include
 
 [libdirs_boost_typeof]
-/home/angie/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/lib
+/home/ranita/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/lib
 
 [bindirs_boost_typeof]
-/home/angie/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/lib
+/home/ranita/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/typeof/lib
 
 [resdirs_boost_typeof]
 
 
 [builddirs_boost_typeof]
-/home/angie/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_typeof]
 
@@ -2715,24 +3039,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_typeof]
 
 
+[frameworks_boost_typeof]
+
+
+[framework_paths_boost_typeof]
+
+
 [rootpath_boost_typeof]
-/home/angie/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_typeof/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_smart_ptr]
-/home/angie/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/include
+/home/ranita/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/include
 
 [libdirs_boost_smart_ptr]
-/home/angie/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/lib
+/home/ranita/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/lib
 
 [bindirs_boost_smart_ptr]
-/home/angie/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/lib
+/home/ranita/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/smart_ptr/lib
 
 [resdirs_boost_smart_ptr]
 
 
 [builddirs_boost_smart_ptr]
-/home/angie/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_smart_ptr]
 
@@ -2758,24 +3088,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_smart_ptr]
 
 
+[frameworks_boost_smart_ptr]
+
+
+[framework_paths_boost_smart_ptr]
+
+
 [rootpath_boost_smart_ptr]
-/home/angie/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_smart_ptr/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_tuple]
-/home/angie/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/include
+/home/ranita/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/include
 
 [libdirs_boost_tuple]
-/home/angie/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/lib
+/home/ranita/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/lib
 
 [bindirs_boost_tuple]
-/home/angie/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/lib
+/home/ranita/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/tuple/lib
 
 [resdirs_boost_tuple]
 
 
 [builddirs_boost_tuple]
-/home/angie/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_tuple]
 
@@ -2801,24 +3137,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_tuple]
 
 
+[frameworks_boost_tuple]
+
+
+[framework_paths_boost_tuple]
+
+
 [rootpath_boost_tuple]
-/home/angie/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_tuple/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_function_types]
-/home/angie/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/include
+/home/ranita/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/include
 
 [libdirs_boost_function_types]
-/home/angie/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/lib
+/home/ranita/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/lib
 
 [bindirs_boost_function_types]
-/home/angie/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/lib
+/home/ranita/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/function_types/lib
 
 [resdirs_boost_function_types]
 
 
 [builddirs_boost_function_types]
-/home/angie/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_function_types]
 
@@ -2844,24 +3186,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_function_types]
 
 
+[frameworks_boost_function_types]
+
+
+[framework_paths_boost_function_types]
+
+
 [rootpath_boost_function_types]
-/home/angie/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_function_types/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_move]
-/home/angie/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/include
+/home/ranita/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/include
 
 [libdirs_boost_move]
-/home/angie/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/lib
+/home/ranita/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/lib
 
 [bindirs_boost_move]
-/home/angie/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/lib
+/home/ranita/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/move/lib
 
 [resdirs_boost_move]
 
 
 [builddirs_boost_move]
-/home/angie/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_move]
 
@@ -2887,24 +3235,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_move]
 
 
+[frameworks_boost_move]
+
+
+[framework_paths_boost_move]
+
+
 [rootpath_boost_move]
-/home/angie/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_move/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_mpl]
-/home/angie/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/include
+/home/ranita/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/include
 
 [libdirs_boost_mpl]
-/home/angie/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/lib
+/home/ranita/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/lib
 
 [bindirs_boost_mpl]
-/home/angie/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/lib
+/home/ranita/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/mpl/lib
 
 [resdirs_boost_mpl]
 
 
 [builddirs_boost_mpl]
-/home/angie/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_mpl]
 
@@ -2930,24 +3284,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_mpl]
 
 
+[frameworks_boost_mpl]
+
+
+[framework_paths_boost_mpl]
+
+
 [rootpath_boost_mpl]
-/home/angie/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_mpl/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_predef]
-/home/angie/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/include
+/home/ranita/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/include
 
 [libdirs_boost_predef]
-/home/angie/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/lib
+/home/ranita/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/lib
 
 [bindirs_boost_predef]
-/home/angie/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/lib
+/home/ranita/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/predef/lib
 
 [resdirs_boost_predef]
 
 
 [builddirs_boost_predef]
-/home/angie/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_predef]
 
@@ -2973,24 +3333,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_predef]
 
 
+[frameworks_boost_predef]
+
+
+[framework_paths_boost_predef]
+
+
 [rootpath_boost_predef]
-/home/angie/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_predef/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_utility]
-/home/angie/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/include
+/home/ranita/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/include
 
 [libdirs_boost_utility]
-/home/angie/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/lib
+/home/ranita/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/lib
 
 [bindirs_boost_utility]
-/home/angie/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/lib
+/home/ranita/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/utility/lib
 
 [resdirs_boost_utility]
 
 
 [builddirs_boost_utility]
-/home/angie/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_utility]
 
@@ -3016,24 +3382,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_utility]
 
 
+[frameworks_boost_utility]
+
+
+[framework_paths_boost_utility]
+
+
 [rootpath_boost_utility]
-/home/angie/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_utility/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_throw_exception]
-/home/angie/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/include
+/home/ranita/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/include
 
 [libdirs_boost_throw_exception]
-/home/angie/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/lib
+/home/ranita/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/lib
 
 [bindirs_boost_throw_exception]
-/home/angie/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/lib
+/home/ranita/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/throw_exception/lib
 
 [resdirs_boost_throw_exception]
 
 
 [builddirs_boost_throw_exception]
-/home/angie/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_throw_exception]
 
@@ -3059,24 +3431,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_throw_exception]
 
 
+[frameworks_boost_throw_exception]
+
+
+[framework_paths_boost_throw_exception]
+
+
 [rootpath_boost_throw_exception]
-/home/angie/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_throw_exception/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_container_hash]
-/home/angie/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/include
+/home/ranita/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/include
 
 [libdirs_boost_container_hash]
-/home/angie/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/lib
+/home/ranita/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/lib
 
 [bindirs_boost_container_hash]
-/home/angie/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/lib
+/home/ranita/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/container_hash/lib
 
 [resdirs_boost_container_hash]
 
 
 [builddirs_boost_container_hash]
-/home/angie/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_container_hash]
 
@@ -3102,24 +3480,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_container_hash]
 
 
+[frameworks_boost_container_hash]
+
+
+[framework_paths_boost_container_hash]
+
+
 [rootpath_boost_container_hash]
-/home/angie/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_container_hash/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_integer]
-/home/angie/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/include
+/home/ranita/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/include
 
 [libdirs_boost_integer]
-/home/angie/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/lib
+/home/ranita/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/lib
 
 [bindirs_boost_integer]
-/home/angie/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/lib
+/home/ranita/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/integer/lib
 
 [resdirs_boost_integer]
 
 
 [builddirs_boost_integer]
-/home/angie/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_integer]
 
@@ -3145,24 +3529,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_integer]
 
 
+[frameworks_boost_integer]
+
+
+[framework_paths_boost_integer]
+
+
 [rootpath_boost_integer]
-/home/angie/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_integer/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_detail]
-/home/angie/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/include
+/home/ranita/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/include
 
 [libdirs_boost_detail]
-/home/angie/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/lib
+/home/ranita/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/lib
 
 [bindirs_boost_detail]
-/home/angie/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/lib
+/home/ranita/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/detail/lib
 
 [resdirs_boost_detail]
 
 
 [builddirs_boost_detail]
-/home/angie/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_detail]
 
@@ -3188,24 +3578,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_detail]
 
 
+[frameworks_boost_detail]
+
+
+[framework_paths_boost_detail]
+
+
 [rootpath_boost_detail]
-/home/angie/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_detail/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_core]
-/home/angie/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/include
+/home/ranita/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/include
 
 [libdirs_boost_core]
-/home/angie/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/lib
+/home/ranita/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/lib
 
 [bindirs_boost_core]
-/home/angie/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/lib
+/home/ranita/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/core/lib
 
 [resdirs_boost_core]
 
 
 [builddirs_boost_core]
-/home/angie/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_core]
 
@@ -3231,24 +3627,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_core]
 
 
+[frameworks_boost_core]
+
+
+[framework_paths_boost_core]
+
+
 [rootpath_boost_core]
-/home/angie/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_core/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_preprocessor]
-/home/angie/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/include
+/home/ranita/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/include
 
 [libdirs_boost_preprocessor]
-/home/angie/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/lib
+/home/ranita/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/lib
 
 [bindirs_boost_preprocessor]
-/home/angie/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/lib
+/home/ranita/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/preprocessor/lib
 
 [resdirs_boost_preprocessor]
 
 
 [builddirs_boost_preprocessor]
-/home/angie/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_preprocessor]
 
@@ -3274,24 +3676,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_preprocessor]
 
 
+[frameworks_boost_preprocessor]
+
+
+[framework_paths_boost_preprocessor]
+
+
 [rootpath_boost_preprocessor]
-/home/angie/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_preprocessor/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_type_traits]
-/home/angie/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/include
+/home/ranita/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/include
 
 [libdirs_boost_type_traits]
-/home/angie/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/lib
+/home/ranita/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/lib
 
 [bindirs_boost_type_traits]
-/home/angie/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/lib
+/home/ranita/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/type_traits/lib
 
 [resdirs_boost_type_traits]
 
 
 [builddirs_boost_type_traits]
-/home/angie/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_type_traits]
 
@@ -3317,24 +3725,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_type_traits]
 
 
+[frameworks_boost_type_traits]
+
+
+[framework_paths_boost_type_traits]
+
+
 [rootpath_boost_type_traits]
-/home/angie/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_type_traits/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_assert]
-/home/angie/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/include
+/home/ranita/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/include
 
 [libdirs_boost_assert]
-/home/angie/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/lib
+/home/ranita/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/lib
 
 [bindirs_boost_assert]
-/home/angie/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/lib
+/home/ranita/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/assert/lib
 
 [resdirs_boost_assert]
 
 
 [builddirs_boost_assert]
-/home/angie/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_assert]
 
@@ -3360,24 +3774,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_assert]
 
 
+[frameworks_boost_assert]
+
+
+[framework_paths_boost_assert]
+
+
 [rootpath_boost_assert]
-/home/angie/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_static_assert]
-/home/angie/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/include
+/home/ranita/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/include
 
 [libdirs_boost_static_assert]
-/home/angie/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/lib
+/home/ranita/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/lib
 
 [bindirs_boost_static_assert]
-/home/angie/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/lib
+/home/ranita/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/static_assert/lib
 
 [resdirs_boost_static_assert]
 
 
 [builddirs_boost_static_assert]
-/home/angie/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_static_assert]
 
@@ -3403,24 +3823,30 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_static_assert]
 
 
+[frameworks_boost_static_assert]
+
+
+[framework_paths_boost_static_assert]
+
+
 [rootpath_boost_static_assert]
-/home/angie/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_static_assert/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
 [includedirs_boost_config]
-/home/angie/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/include
+/home/ranita/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/include
 
 [libdirs_boost_config]
-/home/angie/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/lib
+/home/ranita/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/lib
 
 [bindirs_boost_config]
-/home/angie/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/lib
+/home/ranita/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/config/lib
 
 [resdirs_boost_config]
 
 
 [builddirs_boost_config]
-/home/angie/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+/home/ranita/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_boost_config]
 
@@ -3446,144 +3872,150 @@ BOOST_ALL_NO_LIB=1
 [sysroot_boost_config]
 
 
+[frameworks_boost_config]
+
+
+[framework_paths_boost_config]
+
+
 [rootpath_boost_config]
-/home/angie/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+/home/ranita/.conan/data/boost_config/1.69.0/bincrafters/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 
-[USER_opus]
-[USER_portaudio]
-[USER_boost_asio]
-lib_short_names=asio
-[USER_sqlite_orm]
-[USER_boost_coroutine]
-lib_short_names=coroutine
-[USER_boost_date_time]
-lib_short_names=date_time
-[USER_sqlite3]
-[USER_boost_context]
-lib_short_names=context
-[USER_boost_thread]
-lib_short_names=thread
-[USER_boost_cycle_group_c]
-lib_short_names=date_time,dynamic_bitset,iostreams,multiprecision,random,serialization,spirit,thread
-[USER_boost_chrono]
-lib_short_names=chrono
-[USER_boost_pool]
-lib_short_names=pool
-[USER_boost_algorithm]
-lib_short_names=algorithm
-[USER_boost_endian]
-lib_short_names=endian
-[USER_boost_filesystem]
-lib_short_names=filesystem
-[USER_boost_foreach]
-lib_short_names=foreach
-[USER_boost_lexical_cast]
-lib_short_names=lexical_cast
-[USER_boost_locale]
-lib_short_names=locale
-[USER_boost_math]
-lib_short_names=math
-[USER_boost_phoenix]
-lib_short_names=phoenix
-[USER_boost_tokenizer]
-lib_short_names=tokenizer
-[USER_boost_tti]
-lib_short_names=tti
-[USER_boost_variant]
-lib_short_names=variant
-[USER_bzip2]
-[USER_zlib]
-[USER_lzma]
-[USER_zstd]
-[USER_boost_ratio]
-lib_short_names=ratio
-[USER_boost_system]
-lib_short_names=system
-[USER_boost_io]
-lib_short_names=io
-[USER_boost_cycle_group_b]
-lib_short_names=lexical_cast,math
-[USER_boost_proto]
-lib_short_names=proto
-[USER_boost_rational]
-lib_short_names=rational
-[USER_boost_winapi]
-lib_short_names=winapi
-[USER_boost_atomic]
-lib_short_names=atomic
-[USER_boost_range]
-lib_short_names=range
-[USER_boost_lambda]
-lib_short_names=lambda
-[USER_boost_cycle_group_a]
-lib_short_names=algorithm,range
-[USER_boost_array]
-lib_short_names=array
-[USER_boost_exception]
-lib_short_names=exception
-[USER_boost_function]
-lib_short_names=function
-[USER_boost_numeric_conversion]
-lib_short_names=numeric_conversion
-[USER_boost_regex]
-lib_short_names=regex
-[USER_boost_unordered]
-lib_short_names=unordered
-[USER_boost_bind]
-lib_short_names=bind
-[USER_boost_type_index]
-lib_short_names=type_index
-[USER_boost_iterator]
-lib_short_names=iterator
-[USER_boost_container]
-lib_short_names=container
-[USER_boost_concept_check]
-lib_short_names=concept_check
-[USER_boost_conversion]
-lib_short_names=conversion
-[USER_boost_fusion]
-lib_short_names=fusion
-[USER_boost_optional]
-lib_short_names=optional
-[USER_boost_intrusive]
-lib_short_names=intrusive
-[USER_boost_typeof]
-lib_short_names=typeof
-[USER_boost_smart_ptr]
-lib_short_names=smart_ptr
-[USER_boost_tuple]
-lib_short_names=tuple
-[USER_boost_function_types]
-lib_short_names=function_types
-[USER_boost_move]
-lib_short_names=move
-[USER_boost_mpl]
-lib_short_names=mpl
-[USER_boost_predef]
-lib_short_names=predef
-[USER_boost_utility]
-lib_short_names=utility
-[USER_boost_throw_exception]
-lib_short_names=throw_exception
-[USER_boost_container_hash]
-lib_short_names=container_hash
-[USER_boost_integer]
-lib_short_names=integer
-[USER_boost_detail]
-lib_short_names=detail
-[USER_boost_core]
-lib_short_names=core
-[USER_boost_preprocessor]
-lib_short_names=preprocessor
-[USER_boost_type_traits]
-lib_short_names=type_traits
-[USER_boost_assert]
-lib_short_names=assert
-[USER_boost_static_assert]
-lib_short_names=static_assert
 [USER_boost_config]
 lib_short_names=config
+[USER_boost_bind]
+lib_short_names=bind
+[USER_boost_tti]
+lib_short_names=tti
+[USER_boost_intrusive]
+lib_short_names=intrusive
+[USER_boost_predef]
+lib_short_names=predef
+[USER_zstd]
+[USER_boost_move]
+lib_short_names=move
+[USER_boost_rational]
+lib_short_names=rational
+[USER_boost_type_traits]
+lib_short_names=type_traits
+[USER_boost_range]
+lib_short_names=range
+[USER_boost_detail]
+lib_short_names=detail
+[USER_boost_concept_check]
+lib_short_names=concept_check
+[USER_boost_math]
+lib_short_names=math
+[USER_boost_tokenizer]
+lib_short_names=tokenizer
+[USER_boost_integer]
+lib_short_names=integer
+[USER_lzma]
+[USER_boost_filesystem]
+lib_short_names=filesystem
+[USER_boost_variant]
+lib_short_names=variant
+[USER_boost_fusion]
+lib_short_names=fusion
+[USER_boost_container_hash]
+lib_short_names=container_hash
+[USER_boost_endian]
+lib_short_names=endian
+[USER_boost_preprocessor]
+lib_short_names=preprocessor
+[USER_boost_numeric_conversion]
+lib_short_names=numeric_conversion
+[USER_opus]
+[USER_boost_function]
+lib_short_names=function
+[USER_boost_atomic]
+lib_short_names=atomic
+[USER_boost_coroutine]
+lib_short_names=coroutine
+[USER_sqlite_orm]
+[USER_boost_phoenix]
+lib_short_names=phoenix
+[USER_boost_array]
+lib_short_names=array
+[USER_boost_chrono]
+lib_short_names=chrono
+[USER_boost_throw_exception]
+lib_short_names=throw_exception
+[USER_boost_ratio]
+lib_short_names=ratio
+[USER_boost_static_assert]
+lib_short_names=static_assert
+[USER_boost_mpl]
+lib_short_names=mpl
+[USER_boost_asio]
+lib_short_names=asio
+[USER_boost_system]
+lib_short_names=system
+[USER_bzip2]
+[USER_boost_function_types]
+lib_short_names=function_types
+[USER_sqlite3]
+[USER_boost_cycle_group_b]
+lib_short_names=lexical_cast,math
+[USER_boost_cycle_group_c]
+lib_short_names=date_time,dynamic_bitset,iostreams,multiprecision,random,serialization,spirit,thread
+[USER_portaudio]
+[USER_boost_tuple]
+lib_short_names=tuple
+[USER_boost_assert]
+lib_short_names=assert
+[USER_boost_unordered]
+lib_short_names=unordered
+[USER_boost_context]
+lib_short_names=context
+[USER_boost_foreach]
+lib_short_names=foreach
+[USER_boost_iterator]
+lib_short_names=iterator
+[USER_boost_proto]
+lib_short_names=proto
+[USER_boost_container]
+lib_short_names=container
+[USER_boost_lexical_cast]
+lib_short_names=lexical_cast
+[USER_boost_exception]
+lib_short_names=exception
+[USER_boost_regex]
+lib_short_names=regex
+[USER_boost_smart_ptr]
+lib_short_names=smart_ptr
+[USER_boost_cycle_group_a]
+lib_short_names=algorithm,range
+[USER_boost_conversion]
+lib_short_names=conversion
+[USER_zlib]
+[USER_boost_pool]
+lib_short_names=pool
+[USER_boost_type_index]
+lib_short_names=type_index
+[USER_boost_winapi]
+lib_short_names=winapi
+[USER_boost_core]
+lib_short_names=core
+[USER_boost_thread]
+lib_short_names=thread
+[USER_boost_date_time]
+lib_short_names=date_time
+[USER_boost_optional]
+lib_short_names=optional
+[USER_boost_lambda]
+lib_short_names=lambda
+[USER_boost_io]
+lib_short_names=io
+[USER_boost_utility]
+lib_short_names=utility
+[USER_boost_typeof]
+lib_short_names=typeof
+[USER_boost_algorithm]
+lib_short_names=algorithm
+[USER_boost_locale]
+lib_short_names=locale
 [ENV_opus]
 [ENV_portaudio]
 [ENV_boost_asio]

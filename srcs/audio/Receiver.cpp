@@ -5,6 +5,7 @@
 ** Receiver
 */
 
+#include <memory>
 #include "Audio.hpp"
 #include "Receiver.hpp"
 
@@ -22,20 +23,19 @@ Receiver::~Receiver()
 void Receiver::receive(Socket &sock)
 {
     SoundItem item { };
-    Audio::AudioHeader header { };
+    Audio::AudioPacket tcpPacket { };
     size_t received { 0 };
     int frameSize;
+    void *tmp;
 
-    nextPacketId = 0;
     do {
-        received = sock.receive(&header, sizeof(Audio::AudioHeader), false);
+        received = sock.receive(&tcpPacket, sizeof(Audio::AudioPacket), false);
         if (received > 0) {
-            std::cout << nextPacketId << " <-> " << header.packetId << std::endl;
+            //std::cout << "Packet size received = " << header.size << std::endl;
             Packet packet { 0 };
-            received = sock.receive(packet.data(), header.size, true);
-            frameSize = this->decoder.decode(packet, item, header.size, FrameSize);
+            memcpy(packet.data(), tcpPacket.data, tcpPacket.size);
+            frameSize = this->decoder.decode(&packet, item, tcpPacket.size, FrameSize);
             outStream.push(item);
-            nextPacketId = header.packetId == 9 ? 0 : header.packetId + 1;
         }
     } while (received > 0);
 }

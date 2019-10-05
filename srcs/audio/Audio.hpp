@@ -28,9 +28,9 @@ using Sample = float;
 
 class Audio : public ADataTransfer {
 	public:
-		struct AudioHeader {
+		struct AudioPacket {
 			unsigned int size;
-			int packetId;
+			unsigned char data[200];
 		};
 
 		Audio(int sampleRate, int inputs, int outputs);

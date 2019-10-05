@@ -14,6 +14,7 @@ ApplicationWindow {
     title: qsTr("Tabs")
 
     property alias headerBar:  bar
+    // property alias msgObj: msgObj
 
     Material.theme: Material.Dark
     Material.accent: Material.Violet
