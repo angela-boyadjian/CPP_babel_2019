@@ -17,6 +17,9 @@ Contacts::Contacts(QObject *parent) :
     client->addCallback(Request::Type::FRIEND_INFO, [this](Request &req) {
         getFriends();
     });
+    client->addCallback(Request::Type::REMOVE_FRIEND, [this](Request &req) {
+        getFriends();
+    });
 }
 
 QStringList Contacts::friendList() const
@@ -32,24 +35,30 @@ void Contacts::getFriends()
     _friendsList.clear();
     QString l;
     for (auto const &f : friends) {
-        l = QString::fromUtf8(f.name) + "." + QString::fromUtf8(std::to_string(f.id).c_str());
+        l = QString::fromUtf8(f.name) + "." + QString::fromUtf8(std::to_string(f.id).c_str()) + "." + QString::fromUtf8(f.connected ? "Online" : "Offline");
         _friendsList.append(l);
     }
     emit friendListChanged();
 }
 
-bool Contacts::addFriend(QString name) 
+QString Contacts::addFriend(QString name)
 {
+    if (name == "") {
+        return "You have to type a username";
+    }
     auto client {Network::getInstance()->getClient()};
     auto match = client->autocompleteFriends(name.toStdString());
-
     if (match.size() == 0) {
-        std::cout << "Unknow name" << std::endl; // TODO Err pop up
-        return false;
-    } else {
-        client->addFriend(match[0].id);
-        return true;
+        return "Unknow username";
     }
+    auto needle = std::string(match[0].name);
+    for (int i = 0; i < _friendsList.size(); i++) {
+        if (_friendsList[i].toStdString().find(needle) != std::string::npos)
+            return QString::fromUtf8(std::string(std::string("You already have ") + 
+                std::string(match[0].name) + std::string(" as friend")).c_str());
+    }   
+    client->addFriend(match[0].id);
+    return "OK";
 }
 
 void Contacts::removeFriend(QString name)
@@ -58,7 +67,6 @@ void Contacts::removeFriend(QString name)
     auto match = client->autocompleteFriends(name.toStdString());
 
     client->removeFriend(match[0].id);
-    std::cout << "Friend " << name.toStdString() << " removed" << std::endl;
 }
 
 void Contacts::debug(QString s) const

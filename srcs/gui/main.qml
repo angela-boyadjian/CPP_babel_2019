@@ -4,6 +4,8 @@ import QtQuick.Layouts 1.3
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Controls.Material 2.12
 
+import babel.qt.profil 1.0
+
 import "Components" as Cmp
 
 ApplicationWindow {
@@ -13,8 +15,10 @@ ApplicationWindow {
     height: 800
     title: qsTr("Tabs")
 
+    Profil { id: pro }
+
     property alias headerBar:  bar
-    // property alias msgObj: msgObj
+    property alias userProfile: pro
 
     Material.theme: Material.Dark
     Material.accent: Material.Violet
@@ -22,6 +26,7 @@ ApplicationWindow {
     Material.foreground: Material.Violet
 
     header: HeaderBar { id: bar }
+    Cmp.ErrPopUp {id: popUpError }
 
     Menu {
         id: menu
@@ -33,8 +38,12 @@ ApplicationWindow {
                 HomePage {}
             }
             onClicked: {
-                // TODO Check if user is logged first
-                load_page("Home")
+                if (userProfile.isConnected() == true) {
+                    load_page("Home");
+                } else {
+                    popUpError.errorText = "You are not logged";
+                    popUpError.open();
+                }
             }
         }
 
@@ -44,9 +53,15 @@ ApplicationWindow {
                 id: profilePage
                 Profile {}
             }
-            onClicked: load_page("Profile")
+            onClicked: {
+                if (userProfile.isConnected() == true) {
+                    load_page("Profile");
+                } else {
+                    popUpError.errorText = "You are not logged";
+                    popUpError.open();
+                }
+            }
         }
-
 
         MenuItem {
             text: "Settings"
@@ -54,16 +69,15 @@ ApplicationWindow {
                 id: settingsPage
                 Settings {}
             }
-            onClicked: load_page("Settings")
+            onClicked: { load_page("Settings") }
         }
-
+     
         MenuItem {
             text: "Logout"
             Component {
                 id: loginPage
                 LoginPage {}
             }
-            onClicked: load_page("Login")
         }
 
         MenuItem {
@@ -86,16 +100,60 @@ ApplicationWindow {
     function load_page(page) {
         switch (page) {
             case 'Login':
-                stack.push(loginPage);
+                let itemLog = stack.find(function(item, index) {
+                    if (item.objType == "Login") {
+                        let tmp = stack.pop(item)
+                        stack.push(item);
+                        return item;
+                    } else {
+                        return false;
+                    }
+                });
+                if (itemLog == null) {
+                    stack.push(loginPage);                
+                }
                 break;
             case 'Home':
-                stack.push(homePage);
+                let itemHome = stack.find(function(item, index) {
+                    if (item.objType == "Home") {
+                        let tmp = stack.pop(item)
+                        stack.push(item);
+                        return item;
+                    } else {
+                        return false;
+                    }
+                });
+                if (itemHome == null) {
+                    stack.push(homePage);                    
+                }
                 break;
             case 'Profile':
-                stack.push(profilePage);
+                let itemProf = stack.find(function(item, index) {
+                    if (item.objType == "Profile") {
+                        let tmp = stack.pop(item)
+                        stack.push(item);
+                        return item;
+                    } else {
+                        return false;
+                    }
+                });
+                if (itemProf == null) {
+                    stack.push(profilePage);
+                }
                 break;
             case 'Settings':
-                stack.push(settingsPage);
+                let itemSett = stack.find(function(item, index) {
+                    if (item.objType == "Setting") {
+                        let tmp = stack.pop(item)
+                        stack.push(item);
+                        return item;
+                    } else {
+                        return false;
+                    }
+                });
+                if (itemSett == null) {
+                    stack.push(settingsPage);
+                }
                 break;
         }
     }

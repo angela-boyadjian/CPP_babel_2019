@@ -81,7 +81,7 @@ size_t Socket::receive(void *dest, size_t size, bool wait, udp::endpoint *sender
         }
     } catch(boost::system::system_error &e) {
         if (e.code() == boost::asio::error::would_block) return 0;
-        if (e.code() == boost::asio::error::eof) throw SocketConnectionClosed();
+        if (e.code() == boost::asio::error::eof || e.code() == boost::asio::error::connection_reset) throw SocketConnectionClosed();
         throw SocketException(e.what());
     }
     return len;

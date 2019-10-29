@@ -102,12 +102,34 @@ RequestHandling *Server::requestCall(Client &client, Request &rq, RequestHandlin
     return response;
 }
 
+void Server::sendConnectStatus(Client &client, bool status)
+{
+    client.getFriends();
+    for (auto &c : client.myFriends) {
+        auto connected = _clients.find(c.id);
+        if (connected == _clients.end()) continue;
+        Request connectRq { };
+        connectRq.type = Request::Type::FRIEND_INFO;
+        connectRq.data.addFriend.connected = status;
+        connectRq.data.addFriend.id = client.getId();
+        strcpy(connectRq.data.addFriend.name, client.infos.name.c_str());
+        std::cout << "Sending to " << connected->second->infos.name << " that " << client.infos.name << " is " << status << std::endl;
+        sendRequest(*connected->second->socket, &connectRq);
+    }
+}
+
 RequestHandling *Server::connect(Client &client, Request &rq, RequestHandling *response)
 {
     response->broadcastType = BroadcastType::TO_ONE;
     int oldId = client.getId();
 
-    if (client.login(rq.data.connectInfos.username, rq.data.connectInfos.password)) {
+    std::string name { rq.data.connectInfos.username };
+
+    if (std::find_if(_clients.begin(), _clients.end(), [&name](auto &a) { return a.second->infos.name == name; }) != _clients.end()) {
+        response->response.type = Request::Type::FAILURE;
+        response->targetsinfos.singleTarget = oldId;
+        client.logged = false;
+    } else if (client.login(rq.data.connectInfos.username, rq.data.connectInfos.password)) {
         client.logged = true;
         std::cout << "Client '" << client.infos.name << "' (" << client.getId() << ") logged !" << std::endl;;
         auto old = _clients.extract(oldId);
@@ -115,6 +137,7 @@ RequestHandling *Server::connect(Client &client, Request &rq, RequestHandling *r
         _clients.insert(std::move(old));
         response->targetsinfos.singleTarget = client.getId();
         response->response.type = Request::Type::SUCCESS;
+        sendConnectStatus(client, true);
     } else {
         response->targetsinfos.singleTarget = oldId;
         response->response.type = Request::Type::FAILURE;
@@ -178,6 +201,7 @@ RequestHandling *Server::handleMessage(Client &client, Request &rq, RequestHandl
     handler->targetsinfos.singleTarget = rq.data.message.targetId;
     handler->response.type = Request::Type::MESSAGE;
     handler->response.data.message.senderId = client.getId();
+    handler->response.data.message.targetId = rq.data.message.targetId;
     strcpy(handler->response.data.message.message, rq.data.message.message);
     return handler;
 }
@@ -191,7 +215,17 @@ RequestHandling *Server::addFriend(Client &client, Request &rq, RequestHandling 
     if (client.addFriend(rq.data.addFriend.id, &newFriend)) {
         response->response.type = Request::Type::FRIEND_INFO;
         response->response.data.addFriend.id = newFriend.id;
+        auto connected = _clients.find(newFriend.id);
+        response->response.data.addFriend.connected = connected != _clients.end();
         strcpy(response->response.data.addFriend.name, newFriend.name.c_str());
+        if (connected != _clients.end()) {
+            Request friendRq { };
+            friendRq.type = Request::Type::FRIEND_INFO;
+            friendRq.data.addFriend.id = client.getId();
+            friendRq.data.addFriend.connected = true;
+            strcpy(friendRq.data.addFriend.name, client.infos.name.c_str());
+            sendRequest(*connected->second->socket, &friendRq);
+        }
     }
     return response;
 }
@@ -203,6 +237,14 @@ RequestHandling *Server::removeFriend(Client &client, Request &rq, RequestHandli
     response->response.type = Request::Type::FAILURE;
     if (client.removeFriend(rq.data.addFriend.id)) {
         response->response.type = Request::Type::REMOVE_FRIEND;
+        response->response.data.addFriend.id = rq.data.addFriend.id;
+        auto connected = _clients.find(rq.data.addFriend.id);
+        if (connected != _clients.end()) {
+            Request removeRq { };
+            removeRq.type = Request::Type::REMOVE_FRIEND;
+            removeRq.data.addFriend.id = client.getId();
+            sendRequest(*connected->second->socket, &removeRq);
+        }
     }
     return response;
 }
@@ -276,9 +318,11 @@ void Server::receiveClientData()
             size_t received = client->socket->receive(&rq, sizeof(Request), false);
             if (received > 0) {
                 handleClientRequest(*client, &rq);
+                if (rq.type == Request::Type::CLIENT_CONNECT) break;
             }
             it++;
         } catch (SocketConnectionClosed &e) {
+            sendConnectStatus(*client, false);
             std::cout << "Client " << client->getId() << ": disconnected" << std::endl;
             it = _clients.erase(it);
         }

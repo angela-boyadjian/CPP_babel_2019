@@ -13,7 +13,7 @@
 #include <chrono>
 
 #include "../network/Socket.hpp"
-#include "../Request.hpp"
+#include "../common/Request.hpp"
 #include "./AudioModule.hpp"
 #include "./Client_exception.hpp"
 
@@ -89,6 +89,7 @@ class Client {
         std::unique_ptr<AudioModule> _audio;
         callbackId _ucallbackid { 0 };
         callback_call_fct _callbackCall { nullptr };
+        std::map<std::string, std::vector<Friend>> _autoCompleteCache;
 
         std::unordered_map<Request::Type, void (Client::*)(Request &req)> handlers {
             { Request::Type::CALL_REQUEST, &Client::callRequest },

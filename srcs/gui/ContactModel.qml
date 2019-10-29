@@ -7,12 +7,11 @@ ListModel {
         clear();
     }
 
-    function createListElement(name, friendId, msg) {
+    function createListElement(name, friendId, status) {
         append({
             name: name,
             id: friendId,
-            status: "Online",
-            message: msg
+            status: status
         });
     }
 
@@ -41,5 +40,9 @@ ListModel {
             }
         }
         return null;
+    }
+
+    function getSize() {
+        return contactModel.count;
     }
 }

@@ -3,6 +3,7 @@
         <file>main.qml</file>
         <file>LoginPage.qml</file>
         <file>HomePage.qml</file>
+        <file>HomeTopArea.qml</file>
         <file>Profile.qml</file>
         <file>Settings.qml</file>
         <file>ContactModel.qml</file>
@@ -12,12 +13,11 @@
         <file>CallRequest.qml</file>
         <file>Theme.qml</file>
         <file>Chat.qml</file>
+        <file>ChatPane.qml</file>
         <file>Components/ErrPopUp.qml</file>
         <file>Components/Button.qml</file>
         <file>Components/Text.qml</file>
         <file>Fonts/EN.ttf</file>
-        <file>Images/status_online.png</file>
-        <file>Images/status_busy.png</file>
         <file>Images/call.png</file>
         <file>Images/hangup.png</file>
         <file>Images/msg.png</file>
@@ -31,10 +31,14 @@
         <file>Images/artist.png</file>
         <file>Images/removeFriend.png</file>
         <file>Images/phone.png</file>
-        <file>Images/home_background.png</file>
-        <file>Images/mad.png</file>
-        <file>Images/smile.png</file>
+        <file>Images/video.png</file>
+        <file>Images/home_background.jpg</file>
         <file>Images/rocket.png</file>
+        <file>Images/online.png</file>
+        <file>Images/offline.png</file>
+        <file>Sounds/incomingCall.mp3</file>
+        <file>Sounds/calling.mp3</file>
+        <file>Images/profilPic.png</file>
         <file>qtquickcontrols2.conf</file>
     </qresource>
 </RCC>

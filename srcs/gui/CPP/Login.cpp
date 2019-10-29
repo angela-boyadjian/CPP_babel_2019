@@ -16,23 +16,57 @@ Login::Login(QObject *parent) :
 {
 }
 
-Q_INVOKABLE bool Login::sign(QString const &username, QString const &password, QString const &address) const
+QString Login::connect(QString const &username, QString const &password, QString const &address)
 {
-    if (username == "" || password == "" || address == "")
-        return false;
+    if (username == "")
+        return "Username empty";
+    if (password == "")
+        return "Password empty";
+    if (address == "")
+        return "Hostname empty";
     auto client = Network::getInstance(address.toUtf8().constData())->getClient();
     try {
-        std::cout << "try to log" << std::endl;
+        client->updateServerInfos();
+    } catch(...) {
+        Network::resetInstance();
+        return "connection to server failed";
+    }
+    try {
         client->signIn(username.toUtf8().constData(), password.toUtf8().constData());
     } catch(ClientFailedSign &e) {
-        try {
-            std::cout << "try to register" << std::endl;
-            client->signUp(username.toUtf8().constData(), password.toUtf8().constData());
-        } catch (ClientFailedSign &e) {
-            return false;
-        }
+        Network::resetInstance();
+        return "Failed to login";
     }
     client->updateFriends();
-    std::cout << "logged" << std::endl;
+    return "OK";
+}
+
+QString Login::signUp(QString const &username, QString const &password, QString const &address)
+{
+    if (username == "")
+        return "Username empty";
+    if (password == "")
+        return "Password empty";
+    if (address == "")
+        return "Hostname empty";
+    auto client = Network::getInstance(address.toUtf8().constData())->getClient();
+    try {
+        client->updateServerInfos();
+    } catch(...) {
+        Network::resetInstance();
+        return "connection to server failed";
+    }
+    try {
+        client->signUp(username.toUtf8().constData(), password.toUtf8().constData());
+    } catch (ClientFailedSign &e) {
+        Network::resetInstance();
+        return "Failed to signup";
+    }
+    client->updateFriends();
+    return "OK";
+}
+
+bool Login::logout()
+{
     return true;
 }

@@ -14,10 +14,12 @@ namespace babel {
         auto id = req.data.addFriend.id;
         auto it = std::find_if(_friends.begin(), _friends.end(), [id](auto f){ return f.id == id; });
         if (it == _friends.end()) {
-            // std::cout << "New friend " << req.data.addFriend.id << ": " << req.data.addFriend.name << std::endl;
+            std::cout << "New friend " << req.data.addFriend.id << ": " << req.data.addFriend.name << " (" << (req.data.addFriend.connected ? "connected" : "disconnected") << ")" << std::endl;
             _friends.push_back(req.data.addFriend);
         } else {
            strcpy((*it).name, req.data.addFriend.name);
+           (*it).connected = req.data.addFriend.connected;
+           std::cout << "Friend update " << req.data.addFriend.name << " (" << (req.data.addFriend.connected ? "connected" : "disconnected") << ")" << std::endl;
         }
     }
 
@@ -57,6 +59,10 @@ namespace babel {
     std::vector<Friend> Client::autocompleteFriends(const std::string &base)
     {
         if (base.size() > MAX_NAME_LEN) throw ClientInvalidParameter();
+
+        auto cache = _autoCompleteCache.find(base);
+        if (cache != _autoCompleteCache.end()) return (*cache).second;
+
         Request req(Request::Type::GET_CLIENT_FROM_NAME);
         strcpy(req.data.autoComplete.base, base.c_str());
         _server.send(&req, sizeof(Request));
@@ -65,6 +71,10 @@ namespace babel {
         for (auto i = 0; i < req.data.autoComplete.nb; i++) {
             result.push_back(req.data.autoComplete.infos[i]);
         }
+
+        if (_autoCompleteCache.size() > 100) _autoCompleteCache.clear();
+        _autoCompleteCache[base] = result;
+
         return result;
     }
 

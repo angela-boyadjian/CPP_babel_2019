@@ -12,18 +12,24 @@ Item {
     width: 800; height: 700
     x: 400; y: 50
 
-    property bool sentByMe: false
     property int target
+    property ListModel c_model
 
-    MessageModel {
-        id: m_model
-    }
+    MessageModel { id: m_model }
+    Cmp.ErrPopUp { id: popUpError }
 
     Messager {
         id: msgObj;
         onReceivedMessage: {
-            m_model.createListElement(msg);
-            senderId == 1 ? sentByMe = true : sentByMe = false;
+            if (chatItem.c_model != null) {
+                if (m_model.getSize() >= 10) {
+                    m_model.delLastElem();
+                }
+                let friend = chatItem.c_model.getElementById(senderId);
+                m_model.createListElement(msg, false, friend.name);
+            } else {
+                m_model.createListElement(msg, false, "?");
+            }
         }
     }
 
@@ -34,7 +40,7 @@ Item {
             id: l
             Layout.fillWidth: true
             Layout.fillHeight: true
-            Layout.margins: pane.leftPadding + messageField.leftPadding
+            Layout.margins: chatPane.leftPadding + chatPane.messageField.leftPadding
             displayMarginBeginning: 40
             displayMarginEnd: 40
             verticalLayoutDirection: ListView.BottomToTop
@@ -43,22 +49,27 @@ Item {
             delegate: Column {
                 anchors.right: sentByMe ? parent.right : undefined
                 spacing: 6
-
                 Row {
                     id: messageRow
                     spacing: 6
-                    anchors.right: chatItem.sentByMe ? parent.right : undefined
-
+                    anchors.right: sentByMe ? parent.right : undefined
+                    Text {
+                        id: senderName
+                        x: messageText.x - 20 ; y: messageText.y
+                        width: height; height: parent.height
+                        text: friendName == "author" ? " " :  friendName 
+                        color: "grey"
+                        visible: !sentByMe
+                    }
                     Rectangle {
                         width: Math.min(messageText.implicitWidth + 24,
-                            listView.width - (!chatItem.sentByMe ? messageRow.spacing : 0))
+                            listView.width - (sentByMe ? messageRow.spacing : 0))
                         height: messageText.implicitHeight + 24
-                        color: chatItem.sentByMe ? "steelblue" : "lightgrey"
-
+                        color: sentByMe ? "steelblue" : "lightgrey"
                         Label {
                             id: messageText
                             text: message
-                            color: chatItem.sentByMe ? "white" : "black"
+                            color: sentByMe ? "white" : "black"
                             anchors.fill: parent
                             anchors.margins: 12
                             wrapMode: Label.Wrap
@@ -68,45 +79,26 @@ Item {
             }
             ScrollBar.vertical: ScrollBar {}
         }
-        Pane {
-            id: pane
-            Layout.fillWidth: true
-
-            RowLayout {
-                width: parent.width
-
-                Rectangle {
-                    id: compose
-                    width: 700; height: 48
-                    color: "#EEEEEE"
-                    border.color: "steelblue"
-                    border.width: 2
-                    radius: 10
-                    
-                    TextArea {
-                        x: parent.x + 10
-                        id: messageField
-                        width: compose.width - 50;
-                        placeholderText: qsTr("Compose message")
-                        wrapMode: TextArea.Wrap
-                        hoverEnabled: true
-                    }
-                }
-
-                Button {
-                    id: sendButton
-                    text: qsTr("Send")
-                    enabled: messageField.length > 0
-                    onClicked: {
-                        onClicked: {
-                            msgObj.sendMessage(messageField.text, chatItem.target);
-                            chatItem.sentByMe = true;
-                            m_model.createListElement(messageField.text);
-                            messageField.text = "";
-                        }
-                    }
-                }
+        function sendMsg() {
+            if (c_model == null) {
+                return;
             }
+            let friend = c_model.getElementById(chatItem.target);
+            if (friend.status === "Offline") {
+                popUpError.errorText = "Friend's offline";
+                popUpError.open();
+                return;
+            }
+            msgObj.sendMessage(chatPane.messageField.text, chatItem.target);
+            if (m_model.getSize() >= 10) {
+                    m_model.delLastElem();
+            }
+            m_model.createListElement(chatPane.messageField.text, true, "author");
+            chatPane.messageField.text = "";
+        }
+        ChatPane {
+            id: chatPane
+            sendButton.onClicked: col.sendMsg()
         }
     }
 }

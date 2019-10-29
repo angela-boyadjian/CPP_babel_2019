@@ -7,8 +7,6 @@
 
 #pragma once
 
-#include <type_traits>
-
 #include <QObject>
 #include <QString>
 
@@ -22,8 +20,9 @@ public:
     Call(Call const &);
     Call& operator=(Call const &);
 
-    Q_INVOKABLE bool requestCall(QString);
+    Q_INVOKABLE void requestCall(QString);
     Q_INVOKABLE void stopCall();
+    Q_INVOKABLE bool isCalling();
 
 public slots:
     void onClickedAccept();
@@ -31,6 +30,8 @@ public slots:
 
 signals:
     void callingYou(int callerId);
+    void acceptedYourCall();
+    void deniedYourCall();
 
 private:
     void reset();

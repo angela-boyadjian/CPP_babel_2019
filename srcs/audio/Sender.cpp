@@ -27,9 +27,7 @@ void Sender::send(Socket &sock)
         SoundItem next = inputStream->front();
         Packet output = { 0 };
         Audio::AudioPacket packet { };
-        //packet.data = {0};
-        packet.size = encoder.encode(next, output, FrameSize);
-        // std::cout << "packet size = " << sizeof(Audio::AudioPacket) << std::endl;
+        packet.size = encoder.encode(next, output, FRAME_SIZE);
         memcpy(packet.data, output.data(), packet.size);
         sock.send(&packet, sizeof(Audio::AudioPacket));
         inputStream->pop();

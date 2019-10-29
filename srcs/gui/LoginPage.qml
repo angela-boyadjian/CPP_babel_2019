@@ -8,9 +8,15 @@ import babel.qt.login 1.0
 import "Components" as Cmp
 
 Item {
+    property string objType: "Login"
     Cmp.ErrPopUp { id: popUpError }
+    Login { id: loginObj }
+    
+    function isLogged() {
+        return loginObj.getLoginStatus();
+    }
+
     Rectangle {
-        Login { id: loginObj }
         width: 1200; height: 800
         color: "teal"
 
@@ -60,18 +66,39 @@ Item {
         }
 
         Button {
-            id: button
-            x: 475; y: 500;
-            width: 250; height: 50
+            id: connectButton
+            x: 380; y: 500;
+            width: 215; height: 50
             highlighted: true
             text: "Connect"
             onClicked: {
-                let status = loginObj.sign(login.text, password.text, address.text);
-                if (status == false) {
-                    popUpError.errorText = "Failed to login";
+                let status = loginObj.connect(login.text, password.text, address.text);
+                if (status != "OK") {
+                    popUpError.errorText = status;
                     popUpError.open();
                 } else {
+                    userProfile.setConnected(true)
+                    userProfile.setUserName(login.text)
                     load_page("Home");
+                }
+            }
+        }
+        Button {
+            id: signUpButton
+            x: 615; y: 500;
+            width: 215; height: 50
+            highlighted: true
+            text: "Sign up"
+            
+            onClicked: {
+                let status = loginObj.signUp(login.text, password.text, address.text);
+                if (status == "OK") {
+                    userProfile.setConnected(true)
+                    userProfile.setUserName(login.text)
+                    load_page("Home");
+                } else {
+                    popUpError.errorText = "Failed to login";
+                    popUpError.open();
                 }
             }
         }

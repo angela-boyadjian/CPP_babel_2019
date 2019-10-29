@@ -9,8 +9,9 @@
 
 #include <unordered_map>
 #include <chrono>
+#include <algorithm>
 
-#include "../Request.hpp"
+#include "../common/Request.hpp"
 #include "broadcast.hpp"
 #include "../network/Socket.hpp"
 #include "./Client.hpp"
@@ -24,6 +25,7 @@ class Server {
 
         using HandleFunction = RequestHandling *(Server::*)(Client &, Request &rq, RequestHandling *);
 
+        void sendConnectStatus(Client &client, bool status);
         void checkForNewClients();
         void receiveClientData();
         void receiveUdpPunch();

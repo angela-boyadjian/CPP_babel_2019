@@ -22,7 +22,6 @@ Messager::Messager(QObject *parent) :
         auto data {req.data.message};
         _msg = QString::fromUtf8(data.message);
         emit this->receivedMessage(data.targetId, data.senderId, _msg);
-        // std::cout << "Received message: " << data.message << " from " << data.senderId << " to " << data.targetId << std::endl;
     });
 }
 

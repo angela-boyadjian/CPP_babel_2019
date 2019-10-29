@@ -34,7 +34,7 @@ void Receiver::receive(Socket &sock)
             //std::cout << "Packet size received = " << header.size << std::endl;
             Packet packet { 0 };
             memcpy(packet.data(), tcpPacket.data, tcpPacket.size);
-            frameSize = this->decoder.decode(&packet, item, tcpPacket.size, FrameSize);
+            frameSize = this->decoder.decode(&packet, item, tcpPacket.size, FRAME_SIZE);
             outStream.push(item);
         }
     } while (received > 0);

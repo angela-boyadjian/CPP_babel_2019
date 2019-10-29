@@ -52,7 +52,6 @@ void Client::getFriends()
         where(c(&database::Friends::owner) == infos.id)
     );
     std::vector<database::Client> friends { };
-    std::cout << "Friends: " << friendsQuery.size() << std::endl;
     for (auto &c : friendsQuery) {
         friends.push_back({
             std::get<0>(c),
@@ -74,6 +73,10 @@ bool Client::addFriend(int id, database::Client *newFriend)
         infos.id,
         id
     });
+    database::Connector::get().insert<database::Friends>({
+        id,
+        infos.id
+    });
     auto newFriendRequest = database::Connector::get().get_all<database::Client>(where(c(&database::Client::id) == id));
     *newFriend = newFriendRequest[0];
     return true;
@@ -83,6 +86,7 @@ bool Client::removeFriend(int id)
 {
     try {
         database::Connector::get().remove_all<database::Friends>(where(c(&database::Friends::owner) == getId() && c(&database::Friends::target) == id));
+        database::Connector::get().remove_all<database::Friends>(where(c(&database::Friends::owner) == id && c(&database::Friends::target) == getId()));
         return true;
     } catch (...) {
         return false;
@@ -94,7 +98,6 @@ bool Client::login(std::string name, std::string password)
     auto client = database::Connector::get().get_all<database::Client>(sqlite_orm::where(sqlite_orm::is_equal(&database::Client::name, name)));
 
     if (client.size() == 0) return false;
-    // TODO hash password
     std::hash<std::string> hasher { };
     if (client[0].password == hasher(password)) {
         std::cout << "Getting friends !" << std::endl;

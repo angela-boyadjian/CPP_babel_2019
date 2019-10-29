@@ -18,9 +18,20 @@ Popup {
         border.width: 8
 
         Text {
+            anchors.top: parent.top
+            anchors.topMargin: 20
+            anchors.left: parent.left
+            anchors.leftMargin: 150
+            font.pixelSize: 30
+            font.bold: true
+            color: "red"
+            text: "Error"
+        }
+
+        Text {
             id: textPopUp
             anchors.top: parent.top
-            anchors.topMargin: 50
+            anchors.topMargin: 70
             anchors.left: parent.left
             anchors.leftMargin: (parent.implicitWidth - t_metrics.tightBoundingRect.width) / 2
             font.pixelSize: 23

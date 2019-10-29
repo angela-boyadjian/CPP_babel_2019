@@ -23,10 +23,7 @@ class Settings : public QObject {
         // NOTE Getters
         Q_INVOKABLE qint8 getVolume() const { return _volume; }
         Q_INVOKABLE QString getTheme() const { return _theme; }
-    // signals:
-            // void updateTheme(QString);
     private:
-        // changeVolume(qint8); // TODO
         qint8 _volume;
         QString _theme;
 };

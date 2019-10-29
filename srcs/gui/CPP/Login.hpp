@@ -13,6 +13,8 @@
 #include <memory>
 
 #include "../../client/Client.hpp"
+#include "../../network/SocketException.hpp"
+
 
 class Login : public QObject {
     Q_OBJECT
@@ -21,9 +23,12 @@ class Login : public QObject {
 	    explicit Login(QObject *parent = nullptr);
 		~Login() = default;
 
-    	Q_INVOKABLE bool sign(QString const &, QString const &, QString const &) const;
+    	Q_INVOKABLE QString connect(QString const &, QString const &, QString const &);
+		Q_INVOKABLE QString signUp(QString const &, QString const &, QString const &);
+		Q_INVOKABLE bool logout();
+
 	private:
-	QString _address;
-	// QString _username;
-	// QString _password;
+		QString _address;
+		// QString _username;
+		// QString _password;
 };

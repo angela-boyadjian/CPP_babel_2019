@@ -8,6 +8,7 @@ import babel.qt.settings 1.0
 import "Components" as Cmp
 
 Item {
+    property string objType: "Setting"
     Settings { id: settingsObj }
 
     Settings {

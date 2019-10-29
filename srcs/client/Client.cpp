@@ -37,7 +37,7 @@ namespace babel {
     {
         auto msg_str = res.data.message.message;
         std::string msg(msg_str, strlen(msg_str));
-        int from = res.data.message.targetId;
+        int from = res.data.message.senderId;
 
         std::cout << "Received a message from " << from << ": " << msg << std::endl;
     }

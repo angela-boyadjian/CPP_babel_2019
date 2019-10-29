@@ -20,7 +20,9 @@ ToolBar {
         anchors.fill: parent
         ToolButton {
             text: qsTr("<<")
-            onClicked: stack.pop()
+            onClicked: {
+                stack.pop()
+            }
         }
         Label {
             id: label

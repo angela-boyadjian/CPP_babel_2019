@@ -2,6 +2,7 @@ import QtQuick 2.12
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
 import QtQuick.Controls.Universal 2.12
+import QtMultimedia 5.12
 
 import babel.qt.worker 1.0
 import babel.qt.contacts 1.0
@@ -16,89 +17,37 @@ Item {
 
     ContactModel { id: cm }
     Worker { id: worker }
+    Cmp.ErrPopUp { id: popUpError }
 
     signal clickedAccept()
     signal clickedDeny()
 
-    Image { source: "qrc:/Images/home_background.png" }
-    
     Contacts {
         id: contacts
         onFriendListChanged: {
             cm.clearListElement();
             for (let i = 0; i < friendList.length; i++) {
                 const param = friendList[i].split('.');
-                cm.createListElement(param[0], param[1], "");
+                cm.createListElement(param[0], param[1], param[2]);
             }
-            centerText.text = cm.getElementById(2).name;
-            chat.target = 2
-        }
-    }
-
-    Chat {
-        id: chat
-    }
-
-    CallRequest {
-        id: callPopup
-        acceptButton.onClicked: {
-            contactColumns.clickedAccept();
-            close();
-        }
-        denyButton.onClicked: {
-            contactColumns.clickedDeny();
-            close();
-        }
-    }
-
-    Call {
-        id: callObj
-        onCallingYou: {
-            callPopup.open();
-            callPopup.popupName = cm.getElementById(callerId).name;
-        }
-    }
-
-    Text {
-        id: centerText
-        anchors.top: parent.top
-        x: statusImg.x + 150;
-        topPadding: 90
-        color: "steelblue"
-        font.family: "Arial"
-        font.pointSize: 25;
-        font.bold: true
-        smooth:true
-        visible: true
-    }
-
-    Image {
-        id: statusImg
-        x: 450; y: 80
-        width: 60; height: 60
-        source: "qrc:/Images/smile.png"
-        visible: true
-    }
-
-    Image {
-        id: callImg
-        x: centerText.x + 200; y:  80
-        width: 50; height: 50
-        source: "qrc:/Images/call.png"
-        visible: true
-        MouseArea {
-            anchors.fill: parent
-            onClicked: {
-                if (parent.source == "qrc:/Images/call.png") {
-                    parent.source = "qrc:/Images/hangup.png";
-                    callObj.requestCall(centerText.text);
+            if (cm.getSize() > 1 && cm.getElementById(2) != null) {
+                let friend = cm.getElementById(2);
+                topArea.centerText.text = friend.name;
+                if (friend.status === "Offline") {
+                    topArea.statusImg.source = "Images/offline.png";
                 } else {
-                    callObj.stopCall();
-                    parent.source = "qrc:/Images/call.png";
+                    topArea.statusImg.source = "Images/online.png";
                 }
+                chat.target = 2;
             }
+            topArea.cm = cm;
+            chat.c_model = cm;
         }
     }
+
+    Chat { id: chat }
+    HomeTopArea { id: topArea }
+
     Rectangle {
         width: 400; height:800
         gradient: Gradient {
@@ -125,7 +74,7 @@ Item {
             anchors.bottomMargin: height + 20
             anchors.right: parent.right
             anchors.rightMargin: ((parent.width - width) / 2) + ((48 + 10) / 2)
-            
+
             color: "#FFCC80"
             border.color: "steelblue"
             border.width: 2
@@ -175,10 +124,11 @@ Item {
                     addFriendImg.height = 35;
                 }
                 onClicked: {
-                    if (contacts.addFriend(textFiedlAddFriend.text) == true) {
+                    let status = contacts.addFriend(textFiedlAddFriend.text);
+                    if (status == "OK") {
                         textFiedlAddFriend.text = "";
                     } else {
-                        popUpError.errorText = "Unknow username";
+                        popUpError.errorText = status;
                         popUpError.open();
                     }
                 }
@@ -233,23 +183,19 @@ Item {
                         radius: myRoundButton.radius
                         color: status == "Offline" ? "red" : "#A5D6A7"
                     }
-                    
                 }
                 MouseArea {
                     anchors.fill: parent
                     anchors.rightMargin: 35
                     onClicked: {
-                        statusImg.visible = true;
-                        callImg.visible = true;
                         if (status === "Offline") {
-                            statusImg.source = "Images/mad.png"
+                            topArea.statusImg.source = "Images/offline.png"
                         } else {
-                            statusImg.source = "Images/smile.png"
+                            topArea.statusImg.source = "Images/online.png"
                         }
-                        centerText.text = name;
-                        chat.target = cm.getElementByName(centerText.text).id;
-                        centerText.visible = true;
-                        onClicked: ListView.currentIndex = index;
+                        topArea.centerText.text = name;
+                        chat.target = cm.getElementByName(topArea.centerText.text).id;
+                        ListView.currentIndex = index;
                     }
                 }
                 Rectangle {
@@ -280,7 +226,7 @@ Item {
                             trash.border.color = "steelblue"
                         }
                         onClicked: {
-                            home.removeFriend(name);
+                            contacts.removeFriend(name);
                         }
                     }
                 }

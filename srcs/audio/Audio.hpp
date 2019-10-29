@@ -24,7 +24,7 @@ using Sample = float;
 #include <vector>
 
 #define SampleRate 48000
-#define FrameSize 480
+#define FRAME_SIZE 480
 
 class Audio : public ADataTransfer {
 	public:

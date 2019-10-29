@@ -8,12 +8,14 @@
 #include "Network.hpp"
 
 Network *Network::instance = nullptr;
+int Network::_tcpport = 0;
+int Network::_udpport = 0;
 
 Network::Network(std::string const &ip)
 {
     _client = new babel::Client();
     try {
-        _client->connect(ip.c_str(), 8000, 8001);
+        _client->connect(ip.c_str(), _tcpport, _udpport);
     } catch (SocketConnectionClosed &e) {
         std::cout << "Connection closed" << std::endl;
     } catch (std::exception &e) {
@@ -22,10 +24,17 @@ Network::Network(std::string const &ip)
     }
 }
 
+void Network::setPorts(int tcpport, int udpport)
+{
+    _tcpport = tcpport;
+    _udpport = udpport;
+}
+
 Network *Network::getInstance(std::string const &ip)
 {
-    if (instance == nullptr)
+    if (instance == nullptr) {
         instance = new Network(ip);
+    }
     return instance;
 }
 

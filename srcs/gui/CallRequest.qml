@@ -30,6 +30,7 @@ Popup {
         textColor: "steelblue"
         fontBold: false
     }
+
     Cmp.Text {
         id: textName
         y: 200
@@ -37,6 +38,7 @@ Popup {
         textContent: "Rani"
         textColor: "steelblue"
     }
+
     Button {
         id: acceptButton
         width: 150; height: 100

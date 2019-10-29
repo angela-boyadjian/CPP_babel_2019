@@ -24,7 +24,7 @@ public:
 	void getFriends();
 	QStringList friendList() const;
 	
-	Q_INVOKABLE bool addFriend(QString name);
+	Q_INVOKABLE QString addFriend(QString name);
 	Q_INVOKABLE void removeFriend(QString name);
 	Q_INVOKABLE void debug(QString s) const;
 	

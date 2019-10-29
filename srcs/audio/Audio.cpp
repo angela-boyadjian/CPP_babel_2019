@@ -78,7 +78,7 @@ void Audio::_connectStream(PaStream **givenStream, int input, int output, PaStre
             output,          /* stereo output */
             paFloat32,  /* 32 bit floating point output */
             sampleRate,
-            FrameSize,        /* frames per buffer, i.e. the number
+            FRAME_SIZE,        /* frames per buffer, i.e. the number
                                 of sample frames that PortAudio will
                                 request from the callback. Many apps
                                 may want to use
@@ -122,16 +122,16 @@ int Audio::onData(const void *input,
 )
 {
     if (input != nullptr) {
-        currentIndex += FrameSize * 2;
-        memcpy(currentSoundItem.data(), input, FrameSize * 2 * sizeof(Sample));
+        currentIndex += FRAME_SIZE * 2;
+        memcpy(currentSoundItem.data(), input, FRAME_SIZE * 2 * sizeof(Sample));
         if (currentIndex >= 1023) {
             flush();
         }
     }
     if (inputStream != nullptr && inputStream->size() > 0) {
-        Sample inStreamData[frameCount * 2] { 0 };
+        Sample inStreamData[512 * 2] { 0 };
         SoundItem &item = inputStream->front();
-        memcpy(output, &item, FrameSize * 2 * sizeof(Sample));
+        memcpy(output, &item, FRAME_SIZE * 2 * sizeof(Sample));
         inputStream->pop();
     }
     return 0;

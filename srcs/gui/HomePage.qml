@@ -6,7 +6,13 @@ import QtQuick.Controls.Universal 2.12
 import "Components" as Cmp
 
 Item {
-    width: 600
-    height: 400
+    property string objType: "Home"
+    width: 1200; height:800
+
+    Image {
+        anchors.centerIn: parent
+        source: "qrc:/Images/home_background.jpg"
+    }
+
     ContactsColumn {}
 }

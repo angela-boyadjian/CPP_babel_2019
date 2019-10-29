@@ -20,7 +20,7 @@ class Connector {
 
 		static decltype(auto) get()
 		{
-			static auto storage = sqlite_orm::make_storage("kaka.sqlite",
+			static auto storage = sqlite_orm::make_storage("db.sqlite",
 				sqlite_orm::make_table("clients",
 					sqlite_orm::make_column("id", &Client::id, sqlite_orm::autoincrement(), sqlite_orm::primary_key()),
 					sqlite_orm::make_column("name", &Client::name),

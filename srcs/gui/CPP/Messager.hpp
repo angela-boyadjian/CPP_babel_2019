@@ -22,6 +22,7 @@ public:
 
 signals:
     void receivedMessage(int targetId, int senderId, QString msg);
+    // void receivedMessage(int targetId, int senderName, QString msg);
 private:
     QString _msg;
 };

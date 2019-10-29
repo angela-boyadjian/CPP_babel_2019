@@ -28,7 +28,7 @@ class ClientInvalidParameter : public ClientException
     public:
         ClientInvalidParameter(const std::string &error) : ClientException(error) {};
         ClientInvalidParameter() : ClientException("Given parameters are invalid") {};
-        compl ClientInvalidParameter() = default;
+        ~ClientInvalidParameter() = default;
 };
 
 class ClientFailedSign : public ClientException

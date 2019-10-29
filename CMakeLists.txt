@@ -1,18 +1,31 @@
 cmake_minimum_required(VERSION 3.5)
 project(Babel)
 
-# NOTE Do not remove
-if(${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
-    set(CMAKE_PREFIX_PATH $ENV{HOME}/Qt/5.13.1/gcc_64)
-endif()
-
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_definitions("-std=c++17")
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+    add_definitions("-std=c++17")
+endif()
+
+if (WIN32)
+    macro(get_WIN32_WINNT version)
+        if (WIN32 AND CMAKE_SYSTEM_VERSION)
+            set(ver ${CMAKE_SYSTEM_VERSION})
+            string(REPLACE "." "" ver ${ver})
+            string(REGEX REPLACE "([0-9])" "0\\1" ver ${ver})
+            set(${version} "0x${ver}")
+        endif()
+    endmacro()
+    get_WIN32_WINNT(ver)
+    add_definitions(-D_WIN32_WINNT=${ver})
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /std:c++17")
+    set (CMAKE_PREFIX_PATH "C:\\Qt\\5.13.1\\msvc2017\\")
+    set (_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS TRUE)
+endif(WIN32)
 
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
@@ -57,8 +70,10 @@ set(SRC_GUI
     ./srcs/gui/CPP/Worker.cpp
     ./srcs/gui/CPP/Contacts.cpp
     ./srcs/gui/CPP/Login.cpp
+    ./srcs/gui/CPP/logger.cpp
     ./srcs/gui/CPP/Network.cpp
     ./srcs/gui/CPP/Settings.cpp
+    ./srcs/gui/CPP/Profil.cpp
     ./srcs/gui/CPP/Engine.cpp
 )
 
@@ -74,18 +89,16 @@ find_package(Qt5Test REQUIRED)
 
 qt5_add_resources(RESOURCES ${RESSOURCES_GUI})
 
-# add_executable(audio_bin ${SRC_AUDIO})
 add_executable(babel_server ${SRC_SERVER})
-# add_executable(babel_client ${SRC_CLIENT})
-add_executable(babel_gui ${SRC_GUI} ${SRC_CLIENT} ${SRC_AUDIO} ${RESOURCES})
+# add_executable(babel_cli ${SRC_CLIENT})
+add_executable(babel_client ${SRC_GUI} ${SRC_CLIENT} ${SRC_AUDIO} ${RESOURCES})
 
-# target_link_libraries(audio_bin ${CONAN_LIBS})
 target_link_libraries(babel_server ${CONAN_LIBS})
-# target_link_libraries(babel_client ${CONAN_LIBS})
+# target_link_libraries(babel_cli ${CONAN_LIBS})
+target_link_libraries(babel_client ${CONAN_LIBS})
 
-target_link_libraries(babel_gui ${CONAN_LIBS})
-target_link_libraries(babel_gui Qt5::Core)
-target_link_libraries(babel_gui Qt5::Quick)
-target_link_libraries(babel_gui Qt5::Qml)
-target_link_libraries(babel_gui Qt5::QuickControls2)
-target_link_libraries(babel_gui Qt5::Test)
+target_link_libraries(babel_client Qt5::Core)
+target_link_libraries(babel_client Qt5::Quick)
+target_link_libraries(babel_client Qt5::Qml)
+target_link_libraries(babel_client Qt5::QuickControls2)
+target_link_libraries(babel_client Qt5::Test)

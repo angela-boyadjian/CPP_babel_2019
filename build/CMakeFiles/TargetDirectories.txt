@@ -1,6 +1,0 @@
-/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/rebuild_cache.dir
-/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/edit_cache.dir
-/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_server.dir
-/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_gui.dir
-/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_server_autogen.dir
-/home/ranita/Documents/epitech/Tek3/CPP_babel_2019/build/CMakeFiles/babel_gui_autogen.dir
